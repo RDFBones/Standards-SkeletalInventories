@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://w3id.org/rdfbones/ext/standards-si/"
+     xml:base="http://w3id.org/rdfbones/ext/standards-si/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdfbones="http://w3id.org/rdfbones/core#">
+    <owl:Ontology rdf:about="http://w3id.org/rdfbones/ext/standards-si">
+        <rdfs:label xml:lang="en-us">Skeletal Inventories from &apos;Standards for data cllection from human skeletal remains&apos;</rdfs:label>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.1</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000999 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000999"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001938 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001938"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000963"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#AnatomicalRegionOfInterest -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#AnatomicalRegionOfInterest"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#CategoricalPreservationDatum -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#CategoricalPreservationDatum"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#CategoricalRepresentationDatum -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#CategoricalRepresentationDatum"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#CombinationOfSkeletalSegments -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#CombinationOfSkeletalSegments"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52734 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52734"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#InventoryOfSkeleton -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#InventoryOfSkeleton"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#SkeletalInventorySection -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#SkeletalInventorySection"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/InventoryForCompleteSkeletons -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/InventoryForCompleteSkeletons">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#InventoryOfSkeleton"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SectionCranialBonesAndJointSurfaces"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A skeletal inventory to be used with relatively complete skeletons specified in Buikstra and Ubelaker (1994).</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">&quot;The inventory [...] for Complete Skeletons [...] is suitable for burial features which contain skeletons readily identified as individuals, even though more than one set of remains may have been placed in the feature.&quot; (Buikstra and Ubelaker 1994, 5).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Inventory for complete skeletons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/Representation4States -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#CategoricalRepresentationDatum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#AnatomicalRegionOfInterest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesValueSpecification"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Representation in four  states</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000963"/>
+        <obo:IAO_0000115 xml:lang="en">Labels that can be used for the categorical measurement datum &apos;Representation in four states&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Label for  Representation in four states </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/Representation4StatesValueSpecification -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesValueSpecification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Value specification for the categorical measurement datum &apos;Representation in four states&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Value specification for  Representation in four states </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/SectionCranialBonesAndJointSurfaces -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SectionCranialBonesAndJointSurfaces">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventorySection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52789"/> <!-- Entire left parietal bone -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52788"/> <!-- Entire right parietal bone -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/complete -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/complete">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
+        <obo:IAO_0000115 xml:lang="en"></obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Complete</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/missing -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/missing">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
+        <obo:IAO_0000115 xml:lang="en"></obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Poor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/partial -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/partial">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
+        <obo:IAO_0000115 xml:lang="en"></obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Partial</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/poor -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/poor">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
+        <obo:IAO_0000115 xml:lang="en"></obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Poor</rdfs:label>
+    </owl:NamedIndividual>
+
+
+    
+</rdf:RDF>
+
