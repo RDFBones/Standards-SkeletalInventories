@@ -180,8 +180,13 @@
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesValueSpecification"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A categorical representation datum describing the degree to which an object is present and available for observation of diagnostic features.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker (1994, 6)</obo:IAO_0000119>
+        <obo:IAO_0000116 xml:lang="en">Buikstra and Ubelaker (1994, 6) assign the numeric codes 1 to 3 to three of the states (&apos;complete&apos;, &apos;partial&apos;, &apos;poor&apos;), while the fourth (&apos;missing&apos;) is represented by blank data fields.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">The option &apos;missing&apos; is represented by an explicit categorical label, here, to satisfy the general requirement in data management to distinguish between NULL (&apos;not available&apos;) and zero (&apos;not present&apos;).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Buikstra and Ubelaker (1994, 6) use their four-state assessment scheme to describe both material representation and preservation, i.e. the degree to which &quot;the element is present and available for observation of diagnostic features&quot;. Scores should be assigned in view of the respective diagnostic features: &quot;Completeness scores are designed to reflect details required for [...] investigations. For example, an articular region with a minor amount of postmortem erosion should be scored as complete, since studies of pathology are unlikely to be affected by this minor example of imperfect preservation. Similarly, a relatively large, heavily eroded femur segment should be scored as poorly preserved, reflecting its minimal information value.&quot; </obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Representation in four  states</rdfs:label>
+        <rdfs:label xml:lang="en">Representation in four states</rdfs:label>
     </owl:Class>
     
 
@@ -252,6 +257,10 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of cranial elements.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, chapter 2, attachment 1</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranial bones and joint surfaces</rdfs:label>
     </owl:Class>
     
 
@@ -267,13 +276,38 @@
     
 
 
-    <!-- http://w3id.org/rdfbones/ext/standards-si/complete -->
+    <!-- http://w3id.org/rdfbones/ext/standards-si/1-complete -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/complete">
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/1-complete">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
-        <obo:IAO_0000115 xml:lang="en"></obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An element is defined as complete if it is present to at least 75%. The category &apos;complete&apos; is also expressed with the numeric code 1.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, 6</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Complete</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/2-partial -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/2-partial">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An element is defined as partially represented if it is present to at least 25%. The category &apos;partial&apos; is also expressed with the numeric code 2.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, 6</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Partial</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/3-poor -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/3-poor">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An element is defined as poorly represented if it is present to less than 25%. The category &apos;poor&apos; is also expressed with the numeric code 3.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, 6</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Poor</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -282,31 +316,11 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/missing">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
-        <obo:IAO_0000115 xml:lang="en"></obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An element is defined as missing if it is not represented by any material. In the recording scheme published by Buikstra and Ubelaker (1994, 6) the category &apos;missing&apos; is expressed by leaving data fields blank.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, 6</obo:IAO_0000119>
+        <obo:IAO_0000116 xml:lang="en">The option &apos;missing&apos; is represented by an explicit categorical label, here, to satisfy the general requirement in data management to distinguish between NULL (&apos;not available&apos;) and zero (&apos;not present&apos;).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Poor</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/standards-si/partial -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/partial">
-        <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
-        <obo:IAO_0000115 xml:lang="en"></obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Partial</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/standards-si/poor -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/poor">
-        <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
-        <obo:IAO_0000115 xml:lang="en"></obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Poor</rdfs:label>
+        <rdfs:label xml:lang="en">Missing</rdfs:label>
     </owl:NamedIndividual>
 
 
