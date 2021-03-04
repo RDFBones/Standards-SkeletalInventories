@@ -164,6 +164,33 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideFrontalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideFrontalBone">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma52734"/> <!-- 'Frontal bone -->
+                            <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma328000"/> <!-- 'Left fetal frontal bone' -->
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region of interest (rdfbones:AnatomicalRegionOfInterest) describing the part of a frontal bone that is left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the left side of any frontal bone, irrespectively of it being separated by a frontal suture or not. It can, therefore, refer to a left fetal frontal bone (class fma:0328000) or to the left side of a fused frontal bone (class fma:52734). As a consequence, instances of this class can describe skeletal material from both adult and subadult individuals.</obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A value for the data property rdfbones:bonePortion cannot be defined on class level as it as instances can be regional parts of either a left fetal frontal bone (bone portion = 1) or of a mature frontal bone (bone portion = 0.5).</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left side of frontal bone</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/Representation4States -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States">
@@ -215,6 +242,33 @@
         <obo:IAO_0000115 xml:lang="en">Value specification for the categorical measurement datum &apos;Representation in four states&apos;.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Value specification for  Representation in four states </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideFrontalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightSideFrontalBone">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma52734"/> <!-- 'Frontal bone' -->
+                            <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma0327999"/> <!-- 'Right fetal frontal bone' -->
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region of interest (rdfbones:AnatomicalRegionOfInterest) describing the part of a frontal bone that is right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the right side of any frontal bone, irrespectively of it being separated by a frontal suture or not. It can, therefore, refer to a right fetal frontal bone (class fma:0327999) or to the left side of a fused frontal bone (class fma:52734). As a consequence, instances of this class can describe skeletal material from both adult and subadult individuals.</obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A value for the data property rdfbones:bonePortion cannot be defined on class level as it&apos;s instances can be regional parts of either a right fetal frontal bone (bone portion = 1) or of a mature frontal bone (bone portion = 0.5).</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right side of frontal bone</rdfs:label>
     </owl:Class>
     
 
