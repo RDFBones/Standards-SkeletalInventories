@@ -61,7 +61,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
     
-
+-
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
@@ -101,12 +101,72 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0001930 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001930"/>
+
+
+    <!-- http://purl.org/sig/ont/fma/fma52734 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma52734"/>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/fma52735 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma52735"/>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/fma52736 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma52736"/>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/fma52748 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma52748"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfMandible -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfMandible">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52748"/> <!-- 'Mandible' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a mandible that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Left side of mandible</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfMandible"/>
+    </owl:Class>
     
 
 
     <!-- http://w3id.org/rdfbones/core#AnatomicalRegionOfInterest -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#AnatomicalRegionOfInterest"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#ArticularSurfacesOfLeftTemporomandibularJoint -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#ArticularSurfacesOfLeftTemporomandibularJoint"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#ArticularSurfacesOfRightTemporomandibularJoint -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#ArticularSurfacesOfRightTemporomandibularJoint"/>
     
 
 
@@ -134,9 +194,75 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52738 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52738"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52739 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52739"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52788 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52788"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52789 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52789"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52892 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52892"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52893 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52893"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53649 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53649"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53650 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53650"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53655 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53655"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53656 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53656"/>
+    
+
+
     <!-- http://w3id.org/rdfbones/core#InventoryOfSkeleton -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#InventoryOfSkeleton"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#SegmentOfBoneOrgan -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
     
 
 
@@ -160,6 +286,108 @@
         <obo:IAO_0000116 xml:lang="en">&quot;The inventory [...] for Complete Skeletons [...] is suitable for burial features which contain skeletons readily identified as individuals, even though more than one set of remains may have been placed in the feature.&quot; (Buikstra and Ubelaker 1994, 5).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Inventory for complete skeletons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFrontalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFrontalBone">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52734"/> <!-- 'frontal bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a frontal bone that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">The area described by this anatomical region of interest is equivalent to the zone of a bone organ defined by the FMA class fma:0328002 (&apos;Left side of frontal bone&apos;).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">With individuals where the frontal suture is not or not yet fused, the anatomical region of interest could also be defined as regional part of a &apos;Left fetal frontal bone&apos; (fma:0328000) though it might be argued that this class only applies to prenatal ontogenetic phases.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Left side of frontal bone</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFrontalBone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfMandible -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfMandible">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52748"/> <!-- 'Mandible' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a mandible that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Left side of mandible</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfMandible"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfOccipitalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfOccipitalBone">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52735"/> <!-- 'occipital bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of an occipital bone that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Left side of occipital bone</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfOccipitalBone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSpheonoidBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSphenoidBone">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52736"/> <!-- 'Sphenoid bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a sphenoid bone that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Left side of sphenoid bone</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSphenoidBone"/>
     </owl:Class>
     
 
@@ -219,10 +447,146 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfFrontalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFrontalBone">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52734"/> <!-- 'frontal bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a frontal bone that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">The area described by this anatomical region of interest is equivalent to the zone of a bone organ defined by the FMA class fma:0328001 (&apos;Right side of frontal bone&apos;).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">With individuals where the frontal suture is not or not yet fused, the anatomical region of interest could also be defined as regional part of a &apos;Right fetal frontal bone&apos; (fma:0327999) though it might be argued that this class only applies to prenatal ontogenetic phases.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Right side of frontal bone</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFrontalBone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfMandible -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightSideOfMandible">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52748"/> <!-- 'Mandible' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a mandible that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Right side of mandible</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfMandible"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfOccipitalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightSideOfOccipitalBone">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52735"/> <!-- 'occipital bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of an occipital bone that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Right side of occipital bone</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfOccipitalBone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfSpheonoidBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSphenoidBone">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52736"/> <!-- 'Sphenoid bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a sphenoid bone that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Right side of sphenoid bone</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSphenoidBone"/>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/SectionCranialBonesAndJointSurfaces -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SectionCranialBonesAndJointSurfaces">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventorySection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFrontalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFrontalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
@@ -257,10 +621,311 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfOccipitalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfOccipitalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52739"/> <!-- 'Entire left temporal bone' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52738"/> <!-- 'Entire right temporal bone' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#ArticularSurfacesOfLeftTemporomandibularJoint"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#ArticularSurfacesOfRightTemporomandibularJoint"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSphenoidBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSphenoidBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52893"/> <!-- 'Entire left zygomatic bone' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52892"/> <!-- 'Entire right zygomatic bone' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53650"/> <!-- 'Entire left maxilla' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53649"/> <!-- 'Entire right maxilla' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53656"/> <!-- 'Entire left palatine bone' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53655"/> <!-- 'Entire right palatine bone' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfMandible"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfMandible"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of cranial elements.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, chapter 2, attachment 1</obo:IAO_0000119>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranial bones and joint surfaces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/SectionPostcranialBonesAndJointSurfaces -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SectionPostcranialBonesAndJointSurfaces">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventorySection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFrontalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of selected postcranial skeletal elements.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, chapter 2, attachment 1</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postcranial bones and joint surfaces</rdfs:label>
     </owl:Class>
     
 
