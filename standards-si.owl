@@ -103,6 +103,46 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001930"/>
 
 
+    <!-- http://purl.org/sig/ont/fma/fma13077 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13077"/>
+
+
+    <!-- http://purl.org/sig/ont/fma/fma13078 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13078"/>
+
+
+    <!-- http://purl.org/sig/ont/fma/fma13079 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13079"/>
+
+
+    <!-- http://purl.org/sig/ont/fma/fma13080 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13080"/>
+
+
+    <!-- http://purl.org/sig/ont/fma/fma13081 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13081"/>
+
+
+    <!-- http://purl.org/sig/ont/fma/fma13394 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13394"/>
+
+
+    <!-- http://purl.org/sig/ont/fma/fma13395 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13395"/>
+
+
+    <!-- http://purl.org/sig/ont/fma/fma13396 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13396"/>
+
+
     <!-- http://purl.org/sig/ont/fma/fma52734 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma52734"/>
@@ -185,6 +225,30 @@
     <!-- http://w3id.org/rdfbones/core#CombinationOfSkeletalSegments -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#CombinationOfSkeletalSegments"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13322 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13322"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13323 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13323"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24486 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24486"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24487 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24487"/>
     
 
 
@@ -272,6 +336,80 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/BodyOfLeftScapula -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/BodyOfLeftScapula">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/BodyOfScapula"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13396"/> <!-- 'Left scapula' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the body of a left scapula.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Body of left scapula&apos; (fma:23224).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Body of left scapula</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/BodyOfRightScapula"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/BodyOfRightScapula -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/BodyOfRightScapula">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/BodyOfScapula"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13395"/> <!-- 'Right scapula' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the body of a right scapula.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Body of right scapula&apos; (fma:23223).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Body of right scapula</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/BodyOfLeftScapula"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/BodyOfScapula -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/BodyOfScapula">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13394"/> <!-- 'Scapula' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the body of a scapula.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Body of scapula&apos; (fma:13454).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Body of scapula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/GlenoidFossa -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/GlenoidFossa">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13394"/> <!-- 'Scapula' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a glenoid fossa on a scapula.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same region of a surface of a bone organ as the FMA class &apos;Glenoid fossa&apos; (fma:23275).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Glenoid fossa</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/InventoryForCompleteSkeletons -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/InventoryForCompleteSkeletons">
@@ -286,6 +424,97 @@
         <obo:IAO_0000116 xml:lang="en">&quot;The inventory [...] for Complete Skeletons [...] is suitable for burial features which contain skeletons readily identified as individuals, even though more than one set of remains may have been placed in the feature.&quot; (Buikstra and Ubelaker 1994, 5).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Inventory for complete skeletons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftGlenoidFossa -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftGlenoidFossa">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/GlenoidFossa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13396"/> <!-- 'Left scapula' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the glenoid fossa of a left scapula.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Left glenoid fossa&apos; (fma:23275).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Left glenoid fossa</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightGlenoidFossa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFifthSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFifthSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13081"/> <!-- 'Fifth sacral vertebra' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a fifth sacral vertebra that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Left side of fifth sacral vertebra</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFifthSacralVertebra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFirstSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFirstSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13077"/> <!-- 'First sacral vertebra' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a first sacral vertebra that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Left side of first sacral vertebra</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFirstSacralVertebra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFourthSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFourthSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13080"/> <!-- 'Fourth sacral vertebra' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a fourth sacral vertebra that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Left side of fourth sacral vertebra</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFourthSacralVertebra"/>
     </owl:Class>
     
 
@@ -367,6 +596,72 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSacrum -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSacrum">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#CombinationOfSkeletalSegments"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFirstSacralVertebra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSecondSacralVertebra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfThirdSacralVertebra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFourthSacralVertebra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFifthSacralVertebra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical region of interest describing the part of a sacrum that is situated left of the sagittal anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left side of sacrum</rdfs:label>
+        <owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSacrum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSecondSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSecondSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13078"/> <!-- 'Second sacral vertebra' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a second sacral vertebra that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Left side of second sacral vertebra</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSecondSacralVertebra"/>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSpheonoidBone -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSphenoidBone">
@@ -388,6 +683,30 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Left side of sphenoid bone</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSphenoidBone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfThirdSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfThirdSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13079"/> <!-- 'Third sacral vertebra' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a third sacral vertebra that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Left side of third sacral vertebra</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfThirdSacralVertebra"/>
     </owl:Class>
     
 
@@ -443,6 +762,97 @@
         <obo:IAO_0000115 xml:lang="en">Value specification for the categorical measurement datum &apos;Representation in four states&apos;.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Value specification for  Representation in four states </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightGlenoidFossa -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightGlenoidFossa">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/GlenoidFossa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13395"/> <!-- 'Right scapula' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the glenoid fossa of a right scapula.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Right glenoid fossa&apos; (fma:23276).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Right glenoid fossa</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftGlenoidFossa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfFifthSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFifthSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13081"/> <!-- 'Fifth sacral vertebra' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a fifth sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Right side of fifth sacral vertebra</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFifthSacralVertebra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfFirstSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFirstSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13077"/> <!-- 'First sacral vertebra' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a first sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Right side of first sacral vertebra</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFirstSacralVertebra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfFourthSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFourthSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13080"/> <!-- 'Fourth sacral vertebra' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a fourth sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Right side of fourth sacral vertebra</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFourthSacralVertebra"/>
     </owl:Class>
     
 
@@ -524,6 +934,72 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfSacrum -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSacrum">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#CombinationOfSkeletalSegments"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFirstSacralVertebra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSecondSacralVertebra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfThirdSacralVertebra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFourthSacralVertebra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFifthSacralVertebra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical region of interest describing the part of a sacrum that is situated right of the sagittal anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right side of sacrum</rdfs:label>
+        <owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSacrum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfSecondSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSecondSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13078"/> <!-- 'Second sacral vertebra' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a second sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Right side of second sacral vertebra</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSecondSacralVertebra"/>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfSpheonoidBone -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSphenoidBone">
@@ -545,6 +1021,30 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of sphenoid bone</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSphenoidBone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfThirdSacralVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightSideOfThirdSacralVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma13079"/> <!-- 'Third sacral vertebra' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a third sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Right side of third sacral vertebra</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfThirdSacralVertebra"/>
     </owl:Class>
     
 
@@ -915,7 +1415,160 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFrontalBone"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13323"/> <!-- 'Entire left clavicle -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13322"/> <!-- 'Entire right clavicle -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/BodyOfLeftScapula"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/BodyOfRightScapula"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftGlenoidFossa"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightGlenoidFossa"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24487"/> <!-- 'Entire left patella -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24486"/> <!-- 'Entire right patella -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSacrum"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSacrum"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
