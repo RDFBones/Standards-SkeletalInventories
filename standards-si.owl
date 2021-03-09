@@ -167,31 +167,6 @@
     
 
 
-    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfMandible -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfMandible">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52748"/> <!-- 'Mandible' -->
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#bonePortion"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a mandible that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Left side of mandible</rdfs:label>
-	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfMandible"/>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/rdfbones/core#AnatomicalRegionOfInterest -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#AnatomicalRegionOfInterest"/>
@@ -336,6 +311,80 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/Acetabulum -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/Acetabulum">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16585"/> <!-- 'Hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the hip bone that is part of the hip joint.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Acetabulum&apos; (fma:16579).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Acetabulum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfIlium -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfIlium">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16585"/> <!-- 'Hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the ilium that interfaces with the sacrum.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same surface of a bone organ as the FMA class &apos;Auricular surface of Ilium&apos; (fma:16935).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Auricular surface of ilium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfLeftIlium -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfLeftIlium">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfIlium"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16587"/> <!-- 'Left hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the left ilium that interfaces with the left side of the sacrum.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same surface of a bone organ as the FMA class &apos;Auricular surface of left Ilium&apos; (fma:16936).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Auricular surface of left ilium</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfRightIlium"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfRightIlium -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfRightIlium">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfIlium"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16586"/> <!-- 'Right hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the right ilium that interfaces with the right side of the sacrum.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same surface of a bone organ as the FMA class &apos;Auricular surface of right Ilium&apos; (fma:16937).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Auricular surface of right ilium</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfLeftIlium"/>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/BodyOfLeftScapula -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/BodyOfLeftScapula">
@@ -410,6 +459,27 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/Ilium -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/Ilium">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16585"/> <!-- 'Hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the ischium and the pubis, forms the hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Ilium&apos; (fma:16589).</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ilium</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ischium"/>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Pubis"/>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/InventoryForCompleteSkeletons -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/InventoryForCompleteSkeletons">
@@ -428,6 +498,106 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/Ischium -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/Ischium">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16585"/> <!-- 'Hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the ilium and the pubis, forms the hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Ischium&apos; (fma:16592).</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ischium</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ilium"/>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Pubis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftAcetabulum -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftAcetabulum">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Acetabulum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16587"/> <!-- 'Left hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the left hip bone that is part of the left hip joint.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Left acetabulum&apos; (fma:16599).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Left acetabulum</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightAcetabulum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftIlium -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftIlium">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ilium"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16587"/> <!-- 'Left hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the left ischium and the left pubis, forms the left hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Left ilium&apos; (fma:16591).</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left ilium</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightIlium"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftIschium -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftIschium">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ischium"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16587"/> <!-- 'Left hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the left ilium and the left pubis, forms the left hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Left ischium&apos; (fma:16594).</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left ischium</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightIschium"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/LeftPubis -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftPubis">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Pubis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16587"/> <!-- 'Left hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the left ilium and the left ischium, forms the left hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Left pubis&apos; (fma:16597).</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left pubis</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightPubis"/>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideFrontalBone -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/LeftSideFrontalBone">
@@ -435,14 +605,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma52734"/> <!-- 'Frontal bone -->
-                            <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma328000"/> <!-- 'Left fetal frontal bone' -->
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52734"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region of interest (rdfbones:AnatomicalRegionOfInterest) describing the part of a frontal bone that is left of the saggital anatomical plane.</obo:IAO_0000115>
@@ -564,7 +727,6 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a frontal bone that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">The area described by this anatomical region of interest is equivalent to the zone of a bone organ defined by the FMA class fma:0328002 (&apos;Left side of frontal bone&apos;).</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">With individuals where the frontal suture is not or not yet fused, the anatomical region of interest could also be defined as regional part of a &apos;Left fetal frontal bone&apos; (fma:0328000) though it might be argued that this class only applies to prenatal ontogenetic phases.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Left side of frontal bone</rdfs:label>
@@ -738,6 +900,27 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/Pubis -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/Pubis">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16585"/> <!-- 'Hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the ilium and the ischium, forms the hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Pubis&apos; (fma:16595).</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pubis</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ischium"/>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ischium"/>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/Representation4States -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States">
@@ -793,6 +976,25 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightAcetabulum -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightAcetabulum">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Acetabulum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16586"/> <!-- 'Right hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the right hip bone that is part of the right hip joint.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Right acetabulum&apos; (fma:16598).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Right acetabulum</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftAcetabulum"/>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightGlenoidFossa -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightGlenoidFossa">
@@ -808,6 +1010,66 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right glenoid fossa</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftGlenoidFossa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightIlium -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightIlium">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ilium"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16586"/> <!-- 'Right hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the right ischium and the right pubis, forms the right hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Right ilium&apos; (fma:16590).</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right ilium</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftIlium"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightIschium -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightIschium">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ischium"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16586"/> <!-- 'Right hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the right ilium and the right pubis, forms the right hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Right ischium&apos; (fma:16593).</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right ischium</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftIschium"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/RightPubis -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/RightPubis">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Pubis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16586"/> <!-- 'Right hip bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the right ilium and the right ischium, forms the right hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;'Right pubis&apos; (fma:16596).</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right pubis</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftPubis"/>
     </owl:Class>
     
 
@@ -902,7 +1164,6 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a frontal bone that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">The area described by this anatomical region of interest is equivalent to the zone of a bone organ defined by the FMA class fma:0328001 (&apos;Right side of frontal bone&apos;).</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">With individuals where the frontal suture is not or not yet fused, the anatomical region of interest could also be defined as regional part of a &apos;Right fetal frontal bone&apos; (fma:0327999) though it might be argued that this class only applies to prenatal ontogenetic phases.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of frontal bone</rdfs:label>
@@ -1596,6 +1857,176 @@
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSacrum"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftIlium"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightIlium"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftIschium"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightIschium"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftPubis"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightPubis"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftAcetabulum"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightAcetabulum"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfLeftIlium"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfRightIlium"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
