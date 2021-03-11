@@ -329,6 +329,24 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/ArchOfAtlas -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArchOfAtlas">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfAtlas"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12519"/> <!-- 'Atlas' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the neural arch of an atlas (also referred to as &apos;first cervical vertebra&apos;, C1).</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">The anatomical region of interest describes the same segment of a vertebra as the FMA class &apos;Arch of atlas&apos; (fma:23975).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Arch of Atlas</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfIlium -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfIlium">
@@ -381,6 +399,24 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Auricular surface of right ilium</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfLeftIlium"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/BodyOfAtlas -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/BodyOfAtlas">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfAtlas"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12519"/> <!-- 'Atlas' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the body of an atlas (also referred to as &apos;first cervical vertebra&apos;, C1).</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">The FMA contains classes representing the bodies of cervical vertebrae (subclasses of class &apos;Body of cervical vertebra&apos; (fma:13457). In version 5.0.0 of hte FMA, however, a class representing the body of an atlas is missing.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Body of Atlas</rdfs:label>
     </owl:Class>
     
 
@@ -1669,6 +1705,52 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/SectionIndividualVertebrae -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SectionIndividualVertebrae">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventorySection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/BodyOfAtlas"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArchOfAtlas"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of selected vertebrae.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, chapter 2, attachment 1</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrae (individual)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/SectionPostcranialBonesAndJointSurfaces -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SectionPostcranialBonesAndJointSurfaces">
@@ -2034,6 +2116,40 @@
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a fifth sacral vertebra.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of fifth sacral vertebra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfAtlas -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SegmentOfAtlas">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfCervicalVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12519"/> <!-- 'Atlas' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of an atlas (also referred to as &apos;first cervical vertebra&apos;, C1).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Segment of Atlas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfCervicalVertebra -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SegmentOfCervicalVertebra">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma9915"/> <!-- 'Cervical vertebra' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a cervical vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Segment of cervical vertebra</rdfs:label>
     </owl:Class>
     
 
