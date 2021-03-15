@@ -329,9 +329,9 @@
     
 
 
-    <!-- http://w3id.org/rdfbones/ext/standards-si/ArchOfAtlas -->
+    <!-- http://w3id.org/rdfbones/ext/standards-si/AnteriorArchOfC1 -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArchOfAtlas">
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/AnteriorArchOfC1">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfAtlas"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -339,10 +339,12 @@
                 <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12519"/> <!-- 'Atlas' -->
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the neural arch of an atlas (also referred to as &apos;first cervical vertebra&apos;, C1).</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">The anatomical region of interest describes the same segment of a vertebra as the FMA class &apos;Arch of atlas&apos; (fma:23975).</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the anterior arch of an atlas bone (also referred to as &apos;first cervical vertebra&apos;, C1).</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same segment of a vertebra as the FMA class &apos;Anterior arch of atlas&apos; (fma:23976).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Buikstra and Ubelaker (1994, Chapter 2, Attachment 1) defines the two segments &apos;Centrum&apos; and &apos;Neural Arch&apos; for a selection of vertebrae, including the atlas bone (C1). The atlas bone, however, has neither a centrum nor a neural arch. In a discussion between Jane Buikstra, Eleanna Prevedorou and Felix Engel on 12 March 2021, it was decided that for atlas bones, the anterior arch and the rest of the vertebra can be rated searately in analogy to the centrum/neural arch distinction.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Arch of Atlas</rdfs:label>
+        <rdfs:label xml:lang="en">Anterior arch of C1</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/PosteriorLateralPartOfC1"/>
     </owl:Class>
     
 
@@ -403,24 +405,6 @@
     
 
 
-    <!-- http://w3id.org/rdfbones/ext/standards-si/BodyOfAtlas -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/BodyOfAtlas">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfAtlas"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12519"/> <!-- 'Atlas' -->
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the body of an atlas (also referred to as &apos;first cervical vertebra&apos;, C1).</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">The FMA contains classes representing the bodies of cervical vertebrae (subclasses of class &apos;Body of cervical vertebra&apos; (fma:13457). In version 5.0.0 of hte FMA, however, a class representing the body of an atlas is missing.</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Body of Atlas</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/rdfbones/ext/standards-si/BodyOfLeftScapula -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/BodyOfLeftScapula">
@@ -473,6 +457,25 @@
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Body of scapula&apos; (fma:13454).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Body of scapula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfC2 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/CentrumOfC2">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfAxis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12520"/> <!-- 'Axis' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the central part of a body of an axis bone (also referred to as &apos;second cervical vertebra&apos;, C2).</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same zone of a vertebra as the FMA class &apos;Central part of body of axis&apos; (fma:24048).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Centrum of C2</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC2"/>
     </owl:Class>
     
 
@@ -912,6 +915,45 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Left side of third sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfThirdSacralVertebra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC2 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC2">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfAxis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12520"/> <!-- 'Axis' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the vertebral arch (also referred to as &apos;neural arch&apos;) of an axis bone (also referred to as &apos;second cervical vertebra&apos;, C2).</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same zone of a vertebra as the FMA class &apos;Vertebral arch of axis&apos; (fma:24053).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Neural arch of C2</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/CentrumOfC2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/PosteriorLateralPartOfC1 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/PosteriorLateralPartOfC1">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfAtlas"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12519"/> <!-- 'Atlas' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the poterior arch, the latteral masses and the transverse processes of an atlas bone (also referred to as &apos;first cervical vertebra&apos;, C1).</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">The anatomical region of interest describes the part of an atlas bone that coincides with the FMA classes &apos;Posterior arch of atlas&apos; (fma:23977), &apos;Left lateral mass of atlas&apos; (fma:23980), &apos;Right lateral mass of atlas&apos; (fma:23979), &apos;Left transverse process of atlas&apos; (fma:23983) and '&apos;Right transverse process of atlas&apos; (fma:23982).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Buikstra and Ubelaker (1994, Chapter 2, Attachment 1) defines the two segments &apos;Centrum&apos; and &apos;Neural Arch&apos; for a selection of vertebrae, including the atlas bone (C1). The atlas bone, however, has neither a centrum nor a neural arch. In a discussion between Jane Buikstra, Eleanna Prevedorou and Felix Engel on 12 March 2021, it was decided that for atlas bones, the anterior arch and the rest of the vertebra can be rated searately in analogy to the centrum/neural arch distinction.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Posterior-lateral part of C1</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AnteriorArchOfAtlas"/>
     </owl:Class>
     
 
@@ -1719,7 +1761,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/BodyOfAtlas"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AnteriorArchOfC1"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -1736,7 +1778,41 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArchOfAtlas"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/PosteriorLateralPartOfC1"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/CentrumOfC2"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC2"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -2132,7 +2208,24 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of an atlas (also referred to as &apos;first cervical vertebra&apos;, C1).</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Segment of Atlas</rdfs:label>
+        <rdfs:label xml:lang="en">Segment of atlas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfAxis -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SegmentOfAxis">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfCervicalVertebra"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma12520"/> <!-- 'Axis' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of an axis (also referred to as &apos;second cervical vertebra&apos;, C2).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Segment of axis</rdfs:label>
     </owl:Class>
     
 
