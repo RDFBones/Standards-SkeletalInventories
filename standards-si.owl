@@ -525,8 +525,14 @@
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#InventoryOfSkeleton"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SectionCranialBonesAndJointSurfaces"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SectionPostcranialBonesAndJointSurfaces"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A skeletal inventory to be used with relatively complete skeletons specified in Buikstra and Ubelaker (1994).</obo:IAO_0000115>
