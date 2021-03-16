@@ -953,7 +953,7 @@
         <obo:IAO_0000116 xml:lang="en">Buikstra and Ubelaker (1994, Chapter 2, Attachment 1) defines the two segments &apos;Centrum&apos; and &apos;Neural Arch&apos; for a selection of vertebrae, including the atlas bone (C1). The atlas bone, however, has neither a centrum nor a neural arch. In a discussion between Jane Buikstra, Eleanna Prevedorou and Felix Engel on 12 March 2021, it was decided that for atlas bones, the anterior arch and the rest of the vertebra can be rated searately in analogy to the centrum/neural arch distinction.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Posterior-lateral part of C1</rdfs:label>
-	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AnteriorArchOfAtlas"/>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AnteriorArchOfC1"/>
     </owl:Class>
     
 
