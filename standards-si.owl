@@ -322,6 +322,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the hip bone that is part of the hip joint.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Acetabulum&apos; (fma:16579).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Acetabulum</rdfs:label>
@@ -340,6 +341,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the anterior arch of an atlas bone (also referred to as &apos;first cervical vertebra&apos;, C1).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jane Buikstra</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eleanna Prevedorou</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same segment of a vertebra as the FMA class &apos;Anterior arch of atlas&apos; (fma:23976).</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Buikstra and Ubelaker (1994, Chapter 2, Attachment 1) defines the two segments &apos;Centrum&apos; and &apos;Neural Arch&apos; for a selection of vertebrae, including the atlas bone (C1). The atlas bone, however, has neither a centrum nor a neural arch. In a discussion between Jane Buikstra, Eleanna Prevedorou and Felix Engel on 12 March 2021, it was decided that for atlas bones, the anterior arch and the rest of the vertebra can be rated searately in analogy to the centrum/neural arch distinction.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
@@ -360,6 +364,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the ilium that interfaces with the sacrum.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same surface of a bone organ as the FMA class &apos;Auricular surface of Ilium&apos; (fma:16935).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Auricular surface of ilium</rdfs:label>
@@ -378,6 +383,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the left ilium that interfaces with the left side of the sacrum.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same surface of a bone organ as the FMA class &apos;Auricular surface of left Ilium&apos; (fma:16936).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Auricular surface of left ilium</rdfs:label>
@@ -397,6 +403,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the right ilium that interfaces with the right side of the sacrum.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same surface of a bone organ as the FMA class &apos;Auricular surface of right Ilium&apos; (fma:16937).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Auricular surface of right ilium</rdfs:label>
@@ -416,6 +423,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the body of a left scapula.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Body of left scapula&apos; (fma:23224).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Body of left scapula</rdfs:label>
@@ -435,6 +443,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the body of a right scapula.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Body of right scapula&apos; (fma:23223).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Body of right scapula</rdfs:label>
@@ -454,6 +463,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the body of a scapula.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Body of scapula&apos; (fma:13454).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Body of scapula</rdfs:label>
@@ -472,6 +482,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the central part of a body of an axis bone (also referred to as &apos;second cervical vertebra&apos;, C2).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same zone of a vertebra as the FMA class &apos;Central part of body of axis&apos; (fma:24048).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Centrum of C2</rdfs:label>
@@ -491,6 +502,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a glenoid fossa on a scapula.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same region of a surface of a bone organ as the FMA class &apos;Glenoid fossa&apos; (fma:23275).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Glenoid fossa</rdfs:label>
@@ -536,6 +548,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A skeletal inventory to be used with relatively complete skeletons specified in Buikstra and Ubelaker (1994).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">&quot;The inventory [...] for Complete Skeletons [...] is suitable for burial features which contain skeletons readily identified as individuals, even though more than one set of remains may have been placed in the feature.&quot; (Buikstra and Ubelaker 1994, 5).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Inventory for complete skeletons</rdfs:label>
@@ -575,6 +588,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the left hip bone that is part of the left hip joint.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Left acetabulum&apos; (fma:16599).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Left acetabulum</rdfs:label>
@@ -654,6 +668,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the glenoid fossa of a left scapula.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Left glenoid fossa&apos; (fma:23275).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Left glenoid fossa</rdfs:label>
@@ -679,6 +694,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a fifth sacral vertebra that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Left side of fifth sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFifthSacralVertebra"/>
@@ -703,6 +719,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a first sacral vertebra that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Left side of first sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFirstSacralVertebra"/>
@@ -727,6 +744,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a fourth sacral vertebra that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Left side of fourth sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFourthSacralVertebra"/>
@@ -751,6 +769,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a frontal bone that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">The area described by this anatomical region of interest is equivalent to the zone of a bone organ defined by the FMA class fma:0328002 (&apos;Left side of frontal bone&apos;).</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
@@ -777,6 +796,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a mandible that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Left side of mandible</rdfs:label>
@@ -802,6 +822,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of an occipital bone that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Left side of occipital bone</rdfs:label>
@@ -845,6 +866,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical region of interest describing the part of a sacrum that is situated left of the sagittal anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left side of sacrum</rdfs:label>
         <owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSacrum"/>
@@ -869,6 +891,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a second sacral vertebra that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Left side of second sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSecondSacralVertebra"/>
@@ -893,6 +916,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a sphenoid bone that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Left side of sphenoid bone</rdfs:label>
@@ -918,6 +942,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a third sacral vertebra that is situated left of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Left side of third sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfThirdSacralVertebra"/>
@@ -936,6 +961,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the vertebral arch (also referred to as &apos;neural arch&apos;) of an axis bone (also referred to as &apos;second cervical vertebra&apos;, C2).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same zone of a vertebra as the FMA class &apos;Vertebral arch of axis&apos; (fma:24053).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Neural arch of C2</rdfs:label>
@@ -955,6 +981,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the poterior arch, the latteral masses and the transverse processes of an atlas bone (also referred to as &apos;first cervical vertebra&apos;, C1).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jane Buikstra</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eleanna Prevedorou</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">The anatomical region of interest describes the part of an atlas bone that coincides with the FMA classes &apos;Posterior arch of atlas&apos; (fma:23977), &apos;Left lateral mass of atlas&apos; (fma:23980), &apos;Right lateral mass of atlas&apos; (fma:23979), &apos;Left transverse process of atlas&apos; (fma:23983) and '&apos;Right transverse process of atlas&apos; (fma:23982).</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Buikstra and Ubelaker (1994, Chapter 2, Attachment 1) defines the two segments &apos;Centrum&apos; and &apos;Neural Arch&apos; for a selection of vertebrae, including the atlas bone (C1). The atlas bone, however, has neither a centrum nor a neural arch. In a discussion between Jane Buikstra, Eleanna Prevedorou and Felix Engel on 12 March 2021, it was decided that for atlas bones, the anterior arch and the rest of the vertebra can be rated searately in analogy to the centrum/neural arch distinction.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
@@ -1017,6 +1046,7 @@
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000963"/>
         <obo:IAO_0000115 xml:lang="en">Labels that can be used for the categorical measurement datum &apos;Representation in four states&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Label for  Representation in four states </rdfs:label>
     </owl:Class>
@@ -1034,6 +1064,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Value specification for the categorical measurement datum &apos;Representation in four states&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Value specification for  Representation in four states </rdfs:label>
     </owl:Class>
@@ -1051,6 +1082,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the right hip bone that is part of the right hip joint.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Right acetabulum&apos; (fma:16598).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right acetabulum</rdfs:label>
@@ -1070,6 +1102,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the glenoid fossa of a right scapula.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">This anatomical region of interest defines the same zone of a bone organ as the FMA class &apos;Right glenoid fossa&apos; (fma:23276).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right glenoid fossa</rdfs:label>
@@ -1155,6 +1188,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a fifth sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of fifth sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFifthSacralVertebra"/>
@@ -1179,6 +1213,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a first sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of first sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFirstSacralVertebra"/>
@@ -1203,6 +1238,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a fourth sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of fourth sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFourthSacralVertebra"/>
@@ -1227,6 +1263,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a frontal bone that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">The area described by this anatomical region of interest is equivalent to the zone of a bone organ defined by the FMA class fma:0328001 (&apos;Right side of frontal bone&apos;).</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
@@ -1253,6 +1290,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a mandible that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of mandible</rdfs:label>
@@ -1278,6 +1316,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of an occipital bone that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of occipital bone</rdfs:label>
@@ -1321,6 +1360,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical region of interest describing the part of a sacrum that is situated right of the sagittal anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right side of sacrum</rdfs:label>
         <owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSacrum"/>
@@ -1345,6 +1385,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a second sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of second sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSecondSacralVertebra"/>
@@ -1369,6 +1410,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a sphenoid bone that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of sphenoid bone</rdfs:label>
@@ -1394,6 +1436,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a third sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of third sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfThirdSacralVertebra"/>
@@ -2196,6 +2239,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a fifth sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of fifth sacral vertebra</rdfs:label>
     </owl:Class>
@@ -2213,6 +2257,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of an atlas (also referred to as &apos;first cervical vertebra&apos;, C1).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of atlas</rdfs:label>
     </owl:Class>
@@ -2230,6 +2275,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of an axis (also referred to as &apos;second cervical vertebra&apos;, C2).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of axis</rdfs:label>
     </owl:Class>
@@ -2247,6 +2293,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a cervical vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of cervical vertebra</rdfs:label>
     </owl:Class>
@@ -2264,6 +2311,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a first sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of first sacral vertebra</rdfs:label>
     </owl:Class>
@@ -2281,6 +2329,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a fourth sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of fourth sacral vertebra</rdfs:label>
     </owl:Class>
@@ -2298,6 +2347,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a frontal bone.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of frontal bone</rdfs:label>
     </owl:Class>
@@ -2315,6 +2365,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of hip bone</rdfs:label>
     </owl:Class>
@@ -2332,6 +2383,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a mandible.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of mandible</rdfs:label>
     </owl:Class>
@@ -2349,6 +2401,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of an occipital bone.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of occipital bone</rdfs:label>
     </owl:Class>
@@ -2366,6 +2419,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of sacral vertebra</rdfs:label>
     </owl:Class>
@@ -2383,6 +2437,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a scapula.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of scapula</rdfs:label>
     </owl:Class>
@@ -2400,6 +2455,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a second sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of second sacral vertebra</rdfs:label>
     </owl:Class>
@@ -2417,6 +2473,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a sphenoid bone.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of sphenoid bone</rdfs:label>
     </owl:Class>
@@ -2434,6 +2491,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a third sacral vertebra.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of third sacral vertebra</rdfs:label>
     </owl:Class>
