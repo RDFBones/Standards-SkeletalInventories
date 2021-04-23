@@ -524,7 +524,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Ilium&apos; (fma:16589).</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ilium</rdfs:label>
+        <rdfs:label xml:lang="en">Ilium</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ischium"/>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Pubis"/>
     </owl:Class>
@@ -547,6 +547,48 @@
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SectionPostcranialBonesAndJointSurfaces"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SectionIndividualVertebrae"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SectionGroupedVertebrae"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SectionIndividualRibs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SectionGroupedRibs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SectionLongBones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SectionGroupedHandBones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SectionGroupedFootBones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A skeletal inventory to be used with relatively complete skeletons specified in Buikstra and Ubelaker (1994).</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">&quot;The inventory [...] for Complete Skeletons [...] is suitable for burial features which contain skeletons readily identified as individuals, even though more than one set of remains may have been placed in the feature.&quot; (Buikstra and Ubelaker 1994, 5).</obo:IAO_0000116>
@@ -566,11 +608,11 @@
                 <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16585"/> <!-- 'Hip bone' -->
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the ilium and the pubis, forms the hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Skeletal segment that, together with the ilium and the pubis, forms the hip bone.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Ischium&apos; (fma:16592).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Ischium&apos; (fma:16592).</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ischium</rdfs:label>
+        <rdfs:label xml:lang="en">Ischium</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ilium"/>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Pubis"/>
     </owl:Class>
@@ -607,11 +649,11 @@
                 <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16587"/> <!-- 'Left hip bone' -->
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the left ischium and the left pubis, forms the left hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Skeletal segment that, together with the left ischium and the left pubis, forms the left hip bone.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Left ilium&apos; (fma:16591).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Left ilium&apos; (fma:16591).</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left ilium</rdfs:label>
+        <rdfs:label xml:lang="en">Left ilium</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightIlium"/>
     </owl:Class>
     
@@ -627,11 +669,11 @@
                 <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16587"/> <!-- 'Left hip bone' -->
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the left ilium and the left pubis, forms the left hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Skeletal segment that, together with the left ilium and the left pubis, forms the left hip bone.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Left ischium&apos; (fma:16594).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Left ischium&apos; (fma:16594).</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left ischium</rdfs:label>
+        <rdfs:label xml:lang="en">Left ischium</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightIschium"/>
     </owl:Class>
     
@@ -647,11 +689,11 @@
                 <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16587"/> <!-- 'Left hip bone' -->
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the left ilium and the left ischium, forms the left hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Skeletal segment that, together with the left ilium and the left ischium, forms the left hip bone.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Left pubis&apos; (fma:16597).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Left pubis&apos; (fma:16597).</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left pubis</rdfs:label>
+        <rdfs:label xml:lang="en">Left pubis</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightPubis"/>
     </owl:Class>
     
@@ -865,10 +907,10 @@
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFifthSacralVertebra"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical region of interest describing the part of a sacrum that is situated left of the sagittal anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a sacrum that is situated left of the sagittal anatomical plane.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left side of sacrum</rdfs:label>
+        <rdfs:label xml:lang="en">Left side of sacrum</rdfs:label>
         <owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSacrum"/>
     </owl:Class>
     
@@ -970,6 +1012,32 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/> <!-- 'measurement datum' -->
+        <obo:IAO_0000115 xml:lang="en">A measurement datum describing the amount of complete instances of a defined element that are available for investigation.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (Chapter 2, Attachment 1). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Number of complete elements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/> <!-- 'measurement datum' -->
+        <obo:IAO_0000115 xml:lang="en">A measurement datum describing the amount of instances of a defined element that are available for investigation. The elements can be either complete or fragmented.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (Chapter 2, Attachment 1). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Number of present elements</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/PosteriorLateralPartOfC1 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/PosteriorLateralPartOfC1">
@@ -1003,11 +1071,11 @@
                 <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16585"/> <!-- 'Hip bone' -->
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the ilium and the ischium, forms the hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Skeletal segment that, together with the ilium and the ischium, forms the hip bone.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Pubis&apos; (fma:16595).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Pubis&apos; (fma:16595).</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pubis</rdfs:label>
+        <rdfs:label xml:lang="en">Pubis</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ischium"/>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ischium"/>
     </owl:Class>
@@ -1031,7 +1099,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A categorical representation datum describing the degree to which an object is present and available for observation of diagnostic features.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker (1994, 6)</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (p.6). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">Buikstra and Ubelaker (1994, 6) assign the numeric codes 1 to 3 to three of the states (&apos;complete&apos;, &apos;partial&apos;, &apos;poor&apos;), while the fourth (&apos;missing&apos;) is represented by blank data fields.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">The option &apos;missing&apos; is represented by an explicit categorical label, here, to satisfy the general requirement in data management to distinguish between NULL (&apos;not available&apos;) and zero (&apos;not present&apos;).</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Buikstra and Ubelaker (1994, 6) use their four-state assessment scheme to describe both material representation and preservation, i.e. the degree to which &quot;the element is present and available for observation of diagnostic features&quot;. Scores should be assigned in view of the respective diagnostic features: &quot;Completeness scores are designed to reflect details required for [...] investigations. For example, an articular region with a minor amount of postmortem erosion should be scored as complete, since studies of pathology are unlikely to be affected by this minor example of imperfect preservation. Similarly, a relatively large, heavily eroded femur segment should be scored as poorly preserved, reflecting its minimal information value.&quot; </obo:IAO_0000116>
@@ -1121,11 +1189,11 @@
                 <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16586"/> <!-- 'Right hip bone' -->
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the right ischium and the right pubis, forms the right hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Skeletal segment that, together with the right ischium and the right pubis, forms the right hip bone.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Right ilium&apos; (fma:16590).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Right ilium&apos; (fma:16590).</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right ilium</rdfs:label>
+        <rdfs:label xml:lang="en">Right ilium</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftIlium"/>
     </owl:Class>
     
@@ -1141,11 +1209,11 @@
                 <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16586"/> <!-- 'Right hip bone' -->
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the right ilium and the right pubis, forms the right hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Skeletal segment that, together with the right ilium and the right pubis, forms the right hip bone.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Right ischium&apos; (fma:16593).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;Right ischium&apos; (fma:16593).</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right ischium</rdfs:label>
+        <rdfs:label xml:lang="en">Right ischium</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftIschium"/>
     </owl:Class>
     
@@ -1161,11 +1229,11 @@
                 <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma16586"/> <!-- 'Right hip bone' -->
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal segment that, together with the right ilium and the right ischium, forms the right hip bone.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Skeletal segment that, together with the right ilium and the right ischium, forms the right hip bone.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;'Right pubis&apos; (fma:16596).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">This anatomical region of interest describes the same segment of a bone organ as the FMA class &apos;'Right pubis&apos; (fma:16596).</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right pubis</rdfs:label>
+        <rdfs:label xml:lang="en">Right pubis</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftPubis"/>
     </owl:Class>
     
@@ -1214,7 +1282,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a first sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of first sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFirstSacralVertebra"/>
     </owl:Class>
@@ -1239,7 +1307,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a fourth sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of fourth sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFourthSacralVertebra"/>
     </owl:Class>
@@ -1266,7 +1334,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">The area described by this anatomical region of interest is equivalent to the zone of a bone organ defined by the FMA class fma:0328001 (&apos;Right side of frontal bone&apos;).</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of frontal bone</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFrontalBone"/>
     </owl:Class>
@@ -1292,7 +1360,7 @@
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a mandible that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of mandible</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfMandible"/>
     </owl:Class>
@@ -1318,7 +1386,7 @@
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of an occipital bone that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of occipital bone</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfOccipitalBone"/>
     </owl:Class>
@@ -1359,10 +1427,10 @@
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFifthSacralVertebra"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical region of interest describing the part of a sacrum that is situated right of the sagittal anatomical plane.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a sacrum that is situated right of the sagittal anatomical plane.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right side of sacrum</rdfs:label>
+        <rdfs:label xml:lang="en">Right side of sacrum</rdfs:label>
         <owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSacrum"/>
     </owl:Class>
     
@@ -1386,7 +1454,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a second sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of second sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSecondSacralVertebra"/>
     </owl:Class>
@@ -1412,7 +1480,7 @@
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a sphenoid bone that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">&quot;On the Inventory Recording Form for Complete Remains [...], space has been provided to record left and right sides of all cranial bones. Even though some of these bones (frontal, occipital, sphenoid, mandible) normally fuse in the adult, we recommend recording each side of the fused bone separately. This will provide a better overall picture of the preservation of the skull, and will be especially useful in explaining why certain observations (e.g. of bilateral nonmetric traits; see Chapter 8) could only be made on one side of the skull.&quot; (Buikstra and Ubelaker 1994, 7)</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of sphenoid bone</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSphenoidBone"/>
     </owl:Class>
@@ -1437,7 +1505,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the part of a third sacral vertebra that is situated right of the saggital anatomical plane.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Right side of third sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfThirdSacralVertebra"/>
     </owl:Class>
@@ -1788,10 +1856,1096 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of cranial elements.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, chapter 2, attachment 1</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of cranial elements.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (Chapter 2, Attachment 1). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranial bones and joint surfaces</rdfs:label>
+        <rdfs:label xml:lang="en">Cranial bones and joint surfaces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/SectionGroupedFootBones -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SectionGroupedFootBones">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventorySection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftTarsalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftTarsalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightTarsalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightTarsalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24491"/> <!-- 'Entire tarsal bone' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24491"/> <!-- 'Entire tarsal bone -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftMetatarsalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftMetatarsalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightMetatarsalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightMetatarsalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24492"/> <!-- 'Entire metatarsal bone' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24492"/> <!-- 'Entire metatarsal bone -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftPhalanxOfToe"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftPhalanxOfToe"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightPhalanxOfToe"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightPhalanxOfToe"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24493"/> <!-- 'Entire phalanx of toe' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24493"/> <!-- 'Entire phalanx of toe' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of defined groups of bones of the foot.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (Chapter 2, Attachment 1). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Foot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/SectionGroupedHandBones -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SectionGroupedHandBones">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventorySection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftCarpalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftCarpalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightCarpalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightCarpalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma23889"/> <!-- 'Entire carpal bone' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma23889"/> <!-- 'Entire carpal bone' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftMetacarpalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftMetacarpalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightMetacarpalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightMetacarpalBone"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma9612"/> <!-- 'Entire metacarpal bone' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma9612"/> <!-- 'Entire metacarpal bone -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftPhalanxOfFinger"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftPhalanxOfFinger"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightPhalanxOfFinger"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">14</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightPhalanxOfFinger"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma23914"/> <!-- 'Entire phalanx of finger -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma23914"/> <!-- 'Entire phalanx of finger' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of defined groups of bones of the hand.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (Chapter 2, Attachment 1). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Hand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/SectionGroupedRibs -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SectionGroupedRibs">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventorySection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftThirdToTenthRib"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireLeftThirdToTenthRib"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightThirdToTenthRib"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireRightThirdToTenthRib"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireThirdToTenthRib"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/EntireThirdToTenthRib"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of defined groups of ribs.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (Chapter 2, Attachment 1). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Ribs (grouped)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/SectionGroupedVertebrae -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SectionGroupedVertebrae">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventorySection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/CentrumOfC3-6"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/CentrumOfC3-6"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC3-6"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC3-6"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/CentrumOfT1-T9"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/CentrumOfT1-T9"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT1-T9"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:maxCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT1-T9"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of defined groups of vertebrae.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (Chapter 2, Attachment 1). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Vertebrae (grouped)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/SectionIndividualRibs -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SectionIndividualRibs">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventorySection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma7987"/> <!-- 'Entire left first rib -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma7857"/> <!-- 'Entire right first rib -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma8012"/> <!-- 'Entire left second rib -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma7882"/> <!-- 'Entire right second rib -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma8532"/> <!-- 'Entire left eleventh rib -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma8531"/> <!-- 'Entire right eleventh rib -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma8534"/> <!-- 'Entire left twelfth rib -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma8533"/> <!-- 'Entire right twelfth rib -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Manubrium"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/BodyOfSternum"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of selected ribs.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">The data acquisition form in Buikstra and Ubelaker (1994, Chapter 2, Attachment 1) does not attribute the data items &apos;manubrium&apos; and &apos;Body of sternum&apos; to any section of the skeletal inventory. Here, they are put into the section &apos;Ribs (individual)&apos; because the referenced elements are part of the rib cage and are scored individually.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (Chapter 2, Attachment 1). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Ribs (individual)</rdfs:label>
     </owl:Class>
     
 
@@ -1868,10 +3022,1111 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of selected vertebrae.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, chapter 2, attachment 1</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of selected vertebrae.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (Chapter 2, Attachment 1). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrae (individual)</rdfs:label>
+        <rdfs:label xml:lang="en">Vertebrae (individual)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/SectionLongBones -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SectionLongBones">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventorySection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfLeftHumerus"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfLeftHumerus"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfLeftHumerus"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfLeftHumerus"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfLeftHumerus"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfRightHumerus"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfRightHumerus"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfRightHumerus"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfRightHumerus"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfRightHumerus"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfLeftRadius"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfLeftRadius"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfLeftRadius"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfLeftRadius"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfLeftRadius"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfRightRadius"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfRightRadius"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfRightRadius"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfRightRadius"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfRightRadius"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfLeftUlna"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfLeftUlna"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfLeftUlna"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfLeftUlna"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfLeftUlna"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfRightUlna"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfRightUlna"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfRightUlna"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfRightUlna"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfRightUlna"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfLeftFemur"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfLeftFemur"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfLeftFemur"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfLeftFemur"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfLeftFemur"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfRightFemur"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfRightFemur"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfRightFemur"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfRightFemur"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfRightFemur"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfLeftTibia"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfLeftTibia"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfLeftTibia"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfLeftTibia"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfLeftTibia"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfRightTibia"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfRightTibia"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfRightTibia"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfRightTibia"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfRightTibia"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfLeftFibula"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfLeftFibula"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfLeftFibula"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfLeftFibula"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfLeftFibula"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfRightFibula"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfRightFibula"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfRightFibula"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfRightFibula"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfRightFibula"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24483"/> <!-- 'Entire left talus' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24482"/> <!-- 'Entire right talus' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24498"/> <!-- 'Entire left calcaneus' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/Representation4States"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24497"/> <!-- 'Entire right calcaneus' -->
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of long bones.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (Chapter 2, Attachment 1). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Long bones</rdfs:label>
     </owl:Class>
     
 
@@ -2220,10 +4475,10 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of selected postcranial skeletal elements.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, chapter 2, attachment 1</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Section of the Inventory for Complete Skeletons from Buikstra and Ubelaker (1994) for the assessment of selected postcranial skeletal elements.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (Chapter 2, Attachment 1). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postcranial bones and joint surfaces</rdfs:label>
+        <rdfs:label xml:lang="en">Postcranial bones and joint surfaces</rdfs:label>
     </owl:Class>
     
 
@@ -2240,7 +4495,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a fifth sacral vertebra.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of fifth sacral vertebra</rdfs:label>
     </owl:Class>
     
@@ -2258,7 +4513,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of an atlas (also referred to as &apos;first cervical vertebra&apos;, C1).</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of atlas</rdfs:label>
     </owl:Class>
     
@@ -2276,7 +4531,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of an axis (also referred to as &apos;second cervical vertebra&apos;, C2).</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of axis</rdfs:label>
     </owl:Class>
     
@@ -2294,7 +4549,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a cervical vertebra.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of cervical vertebra</rdfs:label>
     </owl:Class>
     
@@ -2312,7 +4567,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a first sacral vertebra.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of first sacral vertebra</rdfs:label>
     </owl:Class>
     
@@ -2330,7 +4585,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a fourth sacral vertebra.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of fourth sacral vertebra</rdfs:label>
     </owl:Class>
     
@@ -2348,7 +4603,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a frontal bone.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of frontal bone</rdfs:label>
     </owl:Class>
     
@@ -2366,7 +4621,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a hip bone.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of hip bone</rdfs:label>
     </owl:Class>
     
@@ -2384,7 +4639,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a mandible.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of mandible</rdfs:label>
     </owl:Class>
     
@@ -2402,7 +4657,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of an occipital bone.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of occipital bone</rdfs:label>
     </owl:Class>
     
@@ -2420,7 +4675,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a sacral vertebra.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of sacral vertebra</rdfs:label>
     </owl:Class>
     
@@ -2438,7 +4693,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a scapula.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of scapula</rdfs:label>
     </owl:Class>
     
@@ -2456,7 +4711,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a second sacral vertebra.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of second sacral vertebra</rdfs:label>
     </owl:Class>
     
@@ -2474,7 +4729,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a sphenoid bone.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of sphenoid bone</rdfs:label>
     </owl:Class>
     
@@ -2492,7 +4747,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing a part of a third sacral vertebra.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of third sacral vertebra</rdfs:label>
     </owl:Class>
     
@@ -2513,9 +4768,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/1-complete">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An element is defined as complete if it is present to at least 75%. The category &apos;complete&apos; is also expressed with the numeric code 1.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, 6</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An element is defined as complete if it is present to at least 75%. The category &apos;complete&apos; is also expressed with the numeric code 1.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (p.6). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Complete</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2525,9 +4780,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/2-partial">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An element is defined as partially represented if it is present to at least 25%. The category &apos;partial&apos; is also expressed with the numeric code 2.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, 6</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An element is defined as partially represented if it is present to at least 25%. The category &apos;partial&apos; is also expressed with the numeric code 2.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (p.6). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Partial</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2537,9 +4792,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/3-poor">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An element is defined as poorly represented if it is present to less than 25%. The category &apos;poor&apos; is also expressed with the numeric code 3.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, 6</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An element is defined as poorly represented if it is present to less than 25%. The category &apos;poor&apos; is also expressed with the numeric code 3.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (p.6). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Poor</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2549,10 +4804,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/ext/standards-si/missing">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An element is defined as missing if it is not represented by any material. In the recording scheme published by Buikstra and Ubelaker (1994, 6) the category &apos;missing&apos; is expressed by leaving data fields blank.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra and Ubelaker 1994, 6</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">An element is defined as missing if it is not represented by any material. In the recording scheme published by Buikstra and Ubelaker (1994, 6) the category &apos;missing&apos; is expressed by leaving data fields blank.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (p.6). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">The option &apos;missing&apos; is represented by an explicit categorical label, here, to satisfy the general requirement in data management to distinguish between NULL (&apos;not available&apos;) and zero (&apos;not present&apos;).</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Missing</rdfs:label>
     </owl:NamedIndividual>
 
