@@ -1701,7 +1701,7 @@
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfC7 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/CentrumOfC7">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfSeventhVertebra"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfCervicalVertebra"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
@@ -4548,7 +4548,7 @@
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC7 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC7">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfSeventhVertebra"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfSeventhCervicalVertebra"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
@@ -4942,7 +4942,7 @@
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements">
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfCompleteElements">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/> <!-- 'measurement datum' -->
         <obo:IAO_0000115 xml:lang="en">A measurement datum describing the amount of complete instances of a defined element that are available for investigation.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (Chapter 2, Attachment 1). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
@@ -7671,7 +7671,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfLeftHumerus"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfLeftHumerus"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -7739,7 +7739,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfLeftHumerus"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfLeftHumerus"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -7756,7 +7756,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfRightHumerus"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfRightHumerus"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -7824,7 +7824,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfRightHumerus"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfRightHumerus"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -7841,7 +7841,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfLeftRadius"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfLeftRadius"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -7909,7 +7909,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfLeftRadius"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfLeftRadius"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -7926,7 +7926,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfRightRadius"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfRightRadius"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -7994,7 +7994,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfRightRadius"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfRightRadius"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8011,7 +8011,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfLeftUlna"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfLeftUlna"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8079,7 +8079,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfLeftUlna"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfLeftUlna"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8096,7 +8096,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfRightUlna"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfRightUlna"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8164,7 +8164,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfRightUlna"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfRightUlna"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8181,7 +8181,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfLeftFemur"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfLeftFemur"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8249,7 +8249,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfLeftFemur"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfLeftFemur"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8266,7 +8266,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfRightFemur"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfRightFemur"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8334,7 +8334,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfRightFemur"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfRightFemur"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8351,7 +8351,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfLeftTibia"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfLeftTibia"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8419,7 +8419,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfLeftTibia"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfLeftTibia"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8436,7 +8436,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfRightTibia"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfRightTibia"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8504,7 +8504,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfRightTibia"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfRightTibia"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8521,7 +8521,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfLeftFibula"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfLeftFibula"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8589,7 +8589,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfLeftFibula"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfLeftFibula"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8606,7 +8606,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphyisOfRightFibula"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfRightFibula"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -8674,7 +8674,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphyisOfRightFibula"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfRightFibula"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -10027,7 +10027,6 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of ulna</rdfs:label>
     </owl:Class>
-</rdf:RDF>
 
 
 
