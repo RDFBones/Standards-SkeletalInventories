@@ -1420,15 +1420,195 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfHeadOfMandible -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfHeadOfMandible">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52748"/> <!-- 'Mandible' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing an articular surface of a head of a mandible that is part of a temporomandibular joint.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">On fresh bone, the surfaces on the mandible that are part of the temporomandibular joint are the articular cartilages represented by the FMA class 'Articular cartilage of head of mandible' (fma:fma57089). If the articular cartilages are not preserved, the bone surfaces bounding the articular cartilages are referred to as the articular surfaces.</obo:IAO_0000116>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Articular surface of the  head of the  mandible</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfLeftHeadOfMandible -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfLeftHeadOfMandible">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfHeadOfMandible"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52748"/> <!-- 'Mandible' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of a left head of a mandible that is part of a temporomandibular joint.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">On fresh bone, the surface on the left head of the mandible that is part of the temporomandibular joint is the articular cartilage represented by the FMA class 'Articular cartilage of left head of mandible' (fma:fma57095). If the articular cartilage is not preserved, the bone surface bounding the articular cartilage is referred to as the articular surface.</obo:IAO_0000116>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Articular surface of the left head of the  mandible</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfRightHeadOfMandible"/>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfLeftTemporomandibularJoint -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfLeftTemporomandibularJoint"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfLeftTemporomandibularJoint">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfTemporomandibularJoint"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfLeftHeadOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfLeftTemporalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surfaces of a left temporomandibular joint.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Articular surfaces of the left temporomandibular joint.</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfRightTemporomandibularJoint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfLeftTemporalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfLeftTemporalBone">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfTemporalBone"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52739"/> <!-- 'Left temporal bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the posterior part of the zygomatic process of a left temporal bone that is part of a temporomandibular joint.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">On fresh bone, the surface on the left temporal bone that is part of the temporomandibular joint is the articular cartilage represented by the FMA class 'Articular cartilage of posterior part of zygomatic process of left temporal bone' (fma:fma57098). If the articular cartilage is not preserved, the bone surface bounding the articular cartilage is referred to as the articular surface.</obo:IAO_0000116>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Articular surface of the posterior part of the zygomatic process of the left temporal bone</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfRightTemporalBone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfRightTemporalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfRightTemporalBone">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfTemporalBone"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52738"/> <!-- 'Right temporal bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of the posterior part of the zygomatic process of a right temporal bone that is part of a temporomandibular joint.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">On fresh bone, the surface on the right temporal bone that is part of the temporomandibular joint is the articular cartilage represented by the FMA class 'Articular cartilage of posterior part of zygomatic process of right temporal bone' (fma:fma57097). If the articular cartilage is not preserved, the bone surface bounding the articular cartilage is referred to as the articular surface.</obo:IAO_0000116>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Articular surface of the posterior part of the zygomatic process of the right temporal bone</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfLeftTemporalBone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfTemporalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfTemporalBone">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52737"/> <!-- 'Temporal bone' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing an articular surface of a posterior part of a zygomatic process of a temporal bone that is part of a temporomandibular joint.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">On fresh bone, the surfaces on the temporal bone that are part of the temporomandibular joint are the articular cartilages represented by the FMA class 'Articular cartilage of posterior part of zygomatic process of temporal bone' (fma:fma57096). If the articular cartilages are not preserved, the bone surfaces bounding the articular cartilages are referred to as the articular surfaces.</obo:IAO_0000116>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Articular surface of the posterior part of the zygomatic process of the temporal bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfRightHeadOfMandible -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfRightHeadOfMandible">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfHeadOfMandible"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma52748"/> <!-- 'Mandible' -->
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surface of a right head of a mandible that is part of a temporomandibular joint.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">On fresh bone, the surface on the right head of the mandible that is part of the temporomandibular joint is the articular cartilage represented by the FMA class 'Articular cartilage of right head of mandible' (fma:fma57092). If the articular cartilage is not preserved, the bone surface bounding the articular cartilage is referred to as the articular surface.</obo:IAO_0000116>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Articular surface of the right head of the  mandible</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfLeftHeadOfMandible"/>
+    </owl:Class>
     
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfRightTemporomandibularJoint -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfRightTemporomandibularJoint"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfRightTemporomandibularJoint">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfTemporomandibularJoint"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfRightHeadOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfRightTemporalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surfaces of a right temporomandibular joint.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Articular surfaces of the right temporomandibular joint.</rdfs:label>
+	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfLeftTemporomandibularJoint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfTemporomandibularJoint -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfTemporomandibularJoint">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#CombinationOfSkeletalSegments"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfHeadOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfTemporalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An anatomical region of interest describing the articular surfaces of a temporomandibular joint.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Articular surfaces of a temporomandibular joint.</rdfs:label>
+    </owl:Class>
     
 
 
