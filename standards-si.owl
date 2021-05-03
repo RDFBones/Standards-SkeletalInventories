@@ -1701,7 +1701,7 @@
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfC7 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/CentrumOfC7">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfCervicalVertebra"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/standards-si/SegmentOfSeventhCervicalVertebra"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
