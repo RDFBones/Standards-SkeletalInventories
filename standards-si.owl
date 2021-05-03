@@ -1213,18 +1213,6 @@
     
 
 
-    <!-- http://w3id.org/rdfbones/core#ArticularSurfacesOfLeftTemporomandibularJoint -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/core#ArticularSurfacesOfLeftTemporomandibularJoint"/>
-    
-
-
-    <!-- http://w3id.org/rdfbones/core#ArticularSurfacesOfRightTemporomandibularJoint -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/core#ArticularSurfacesOfRightTemporomandibularJoint"/>
-    
-
-
     <!-- http://w3id.org/rdfbones/core#CategoricalPreservationDatum -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#CategoricalPreservationDatum"/>
@@ -1429,6 +1417,18 @@
         <rdfs:label xml:lang="en">Anterior arch of C1</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/PosteriorLateralPartOfC1"/>
     </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfLeftTemporomandibularJoint -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfLeftTemporomandibularJoint"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfRightTemporomandibularJoint -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfRightTemporomandibularJoint"/>
     
 
 
@@ -6307,7 +6307,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#ArticularSurfacesOfLeftTemporomandibularJoint"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfLeftTemporomandibularJoint"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -6324,7 +6324,7 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/> <!-- 'is about' -->
                                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#ArticularSurfacesOfRightTemporomandibularJoint"/>
+                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfRightTemporomandibularJoint"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
