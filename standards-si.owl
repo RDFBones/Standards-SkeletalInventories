@@ -5137,6 +5137,7 @@
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/CountValueSpecification">
       <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/> <!-- 'value specification' -->
+      <!-- The commented out section is throwing reasoner errors for unknown reasons. It needs to be reworked.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001937"/>
@@ -5144,6 +5145,7 @@
                 <owl:onDataRange rdf:resource="http://www.w3.org/2002/07/owl#real"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+      -->
         <obo:IAO_0000115>A value specification that for measurement data that render the number of a certain type of elements.</obo:IAO_0000115>
         <obo:IAO_0000117>Felix Engel</obo:IAO_0000117>
         <rdfs:label>Count value specification</rdfs:label>
