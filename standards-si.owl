@@ -5157,6 +5157,12 @@
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/> <!-- 'measurement datum' -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/CountValueSpecification"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A measurement datum describing the amount of instances of a defined element that are available for investigation. The elements can be either complete or fragmented.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buikstra, J. E., &amp; Ubelaker, D. H. (1994). Standards for Data Collection from Human Skeletal Remains (Chapter 2, Attachment 1). Fayetteville: Arkansas Archaeological Survey.</obo:IAO_0000119>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
