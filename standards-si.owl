@@ -14,10 +14,10 @@
         <rdfs:label xml:lang="en-us">Skeletal Inventories from &apos;Standards for data collection from human skeletal remains&apos;</rdfs:label>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.1</owl:versionInfo>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -25,28 +25,28 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -54,34 +54,34 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
-    
+
 -
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000999 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000999"/>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001938 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001938"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -89,13 +89,13 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000963 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000963"/>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001930 -->
@@ -105,85 +105,85 @@
    <!-- http://purl.org/sig/ont/fma/fma10014 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma10014"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma10037 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma10037"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma10059 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma10059"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma10081 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma10081"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma12521 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma12521"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma12522 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma12522"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma12523 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma12523"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma12524 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma12524"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma12525 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma12525"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma13072 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13072"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma13073 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13073"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma13074 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13074"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma13075 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13075"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma13076 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13076"/>
-	
+
 
     <!-- http://purl.org/sig/ont/fma/fma13077 -->
 
@@ -212,7 +212,7 @@
 	<!-- http://purl.org/sig/ont/fma/fma13303 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma13303"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma13394 -->
@@ -233,1149 +233,1149 @@
     <!-- http://purl.org/sig/ont/fma/fma52734 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma52734"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma52735 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma52735"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma52736 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma52736"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma52748 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma52748"/>
-    
+
 
     <!-- http://purl.org/sig/ont/fma/fma230986 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma230986"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma230988 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma230988"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23130 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23130"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23131 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23131"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23463 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23463"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23464 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23464"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23465 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23465"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23466 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23466"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23467 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23467"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23468 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23468"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23725 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23725"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23938 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23938"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23940 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23940"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23942 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23942"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23944 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23944"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23951 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23951"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23953 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23953"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23955 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23955"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23957 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23957"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma23959 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma23959"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24435 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24435"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24436 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24436"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24437 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24437"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24438 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24438"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24439 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24439"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24440 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24440"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24441 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24441"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24442 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24442"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24443 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24443"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24444 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24444"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24445 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24445"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24446 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24446"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24447 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24447"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24448 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24448"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24449 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24449"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24450 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24450"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24451 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24451"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24452 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24452"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24453 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24453"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24454 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24454"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24455 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24455"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24456 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24456"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24457 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24457"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24458 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24458"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24459 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24459"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24460 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24460"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24461 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24461"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24462 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24462"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24463 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24463"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24464 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24464"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24465 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24465"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24466 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24466"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24467 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24467"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24468 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24468"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24469 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24469"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24470 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24470"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24471 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24471"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24472 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24472"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24473 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24473"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24474 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24474"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24475 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24475"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24476 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24476"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24477 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24477"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24478 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24478"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24479 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24479"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24480 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24480"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24481 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24481"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24482 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24482"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24483 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24483"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24497 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24497"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24498 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24498"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24500 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24500"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24501 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24501"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24507 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24507"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24508 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24508"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24509 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24509"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24510 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24510"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24511 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24511"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24512 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24512"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24513 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24513"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24514 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24514"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24515 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24515"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24516 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24516"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24521 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24521"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24522 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24522"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24523 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24523"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24524 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24524"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24525 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24525"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24526 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24526"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24528 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24528"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma24529 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma24529"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32634 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32634"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32635 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32635"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32636 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32636"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32637 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32637"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32638 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32638"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32639 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32639"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32640 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32640"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32641 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32641"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32642 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32642"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32643 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32643"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32644 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32644"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32645 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32645"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32646 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32646"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32647 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32647"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32650 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32650"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32651 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32651"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32652 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32652"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32653 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32653"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32654 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32654"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32655 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32655"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32656 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32656"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32657 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32657"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32658 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32658"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma32659 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma32659"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma43253 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma43253"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma43254 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma43254"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma65470 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma65470"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma66791 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma66791"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma71908 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma71908"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma71915 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma71915"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma71916 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma71916"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma7474 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma7474"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma7485 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma7485"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma7638 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma7638"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma7749 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma7749"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma7776 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma7776"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma7830 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma7830"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma7909 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma7909"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma7957 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma7957"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8039 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8039"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8066 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8066"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8093 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8093"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8120 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8120"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8147 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8147"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8148 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8148"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8175 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8175"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8202 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8202"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8229 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8229"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8256 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8256"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8283 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8283"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8310 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8310"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8337 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8337"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8364 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8364"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8391 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8391"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8418 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8418"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8445 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8445"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma8472 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma8472"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma9139 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma9139"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma9165 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma9165"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma9187 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma9187"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma9209 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma9209"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma9248 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma9248"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma9611 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma9611"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma9921 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma9921"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma9922 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma9922"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma9945 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma9945"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma9968 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma9968"/>
-    
+
 
 
     <!-- http://purl.org/sig/ont/fma/fma9991 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma9991"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#AnatomicalRegionOfInterest -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#AnatomicalRegionOfInterest"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#CategoricalPreservationDatum -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#CategoricalPreservationDatum"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#CategoricalRepresentationDatum -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#CategoricalRepresentationDatum"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#CombinationOfSkeletalSegments -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#CombinationOfSkeletalSegments"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13322 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13322"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13323 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13323"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24486 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24486"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24487 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24487"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52734 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52734"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52738 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52738"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52739 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52739"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52788 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52788"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52789 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52789"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52892 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52892"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52893 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52893"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53649 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53649"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53650 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53650"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53655 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53655"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53656 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma53656"/>
-	
-    
+
+
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma23889 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma23889"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma23914 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma23914"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24491 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24491"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24492 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24492"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24493 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma24493"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma7574 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma7574"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma9612 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma9612"/>
-    
+
 
     <!-- http://w3id.org/rdfbones/core#InventoryOfSkeleton -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#InventoryOfSkeleton"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/core#SegmentOfBoneOrgan -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#SegmentOfBoneOrgan"/>
-    
+
 
     <!-- http://w3id.org/rdfbones/core#SkeletalInventorySection -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#SkeletalInventorySection"/>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/Acetabulum -->
@@ -1394,7 +1394,7 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Acetabulum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/AnteriorArchOfC1 -->
@@ -1417,7 +1417,7 @@
         <rdfs:label xml:lang="en">Anterior arch of C1</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/PosteriorLateralPartOfC1"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfHeadOfMandible -->
@@ -1436,7 +1436,7 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Articular surface of the  head of the  mandible</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfLeftHeadOfMandible -->
@@ -1456,7 +1456,7 @@
         <rdfs:label xml:lang="en">Articular surface of the left head of the  mandible</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfRightHeadOfMandible"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfLeftTemporomandibularJoint -->
@@ -1481,7 +1481,7 @@
         <rdfs:label xml:lang="en">Articular surfaces of the left temporomandibular joint.</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfRightTemporomandibularJoint"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfLeftTemporalBone -->
@@ -1501,7 +1501,7 @@
         <rdfs:label xml:lang="en">Articular surface of the posterior part of the zygomatic process of the left temporal bone</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfRightTemporalBone"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfRightTemporalBone -->
@@ -1521,7 +1521,7 @@
         <rdfs:label xml:lang="en">Articular surface of the posterior part of the zygomatic process of the right temporal bone</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfLeftTemporalBone"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfPosteriorPartOfZygomaticProcessOfTemporalBone -->
@@ -1540,7 +1540,7 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Articular surface of the posterior part of the zygomatic process of the temporal bone</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfRightHeadOfMandible -->
@@ -1560,7 +1560,7 @@
         <rdfs:label xml:lang="en">Articular surface of the right head of the  mandible</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfaceOfLeftHeadOfMandible"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfRightTemporomandibularJoint -->
@@ -1585,7 +1585,7 @@
         <rdfs:label xml:lang="en">Articular surfaces of the right temporomandibular joint.</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfLeftTemporomandibularJoint"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ArticularSurfacesOfTemporomandibularJoint -->
@@ -1609,7 +1609,7 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Articular surfaces of a temporomandibular joint.</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfIlium -->
@@ -1628,7 +1628,7 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Auricular surface of ilium</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfLeftIlium -->
@@ -1648,7 +1648,7 @@
         <rdfs:label xml:lang="en">Auricular surface of left ilium</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfRightIlium"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfRightIlium -->
@@ -1668,7 +1668,7 @@
         <rdfs:label xml:lang="en">Auricular surface of right ilium</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AuricularSurfaceOfLeftIlium"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/BodyOfLeftScapula -->
@@ -1688,7 +1688,7 @@
         <rdfs:label xml:lang="en">Body of left scapula</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/BodyOfRightScapula"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/BodyOfRightScapula -->
@@ -1708,7 +1708,7 @@
         <rdfs:label xml:lang="en">Body of right scapula</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/BodyOfLeftScapula"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/BodyOfScapula -->
@@ -1727,7 +1727,7 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Body of scapula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/BodyOfSternum">
@@ -1766,9 +1766,9 @@
         <rdfs:label xml:lang="en">Centrum of C2</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC2"/>
     </owl:Class>
-    
-	
-	
+
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfC3 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/CentrumOfC3">
@@ -1835,7 +1835,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of C4</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfC5 -->
@@ -1855,7 +1855,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of C5</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfC6 -->
@@ -1875,7 +1875,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of C6</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfC7 -->
@@ -1896,7 +1896,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of C7</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfL1 -->
@@ -1918,7 +1918,7 @@
         <rdfs:label xml:lang="en">Centrum of L1</rdfs:label>
     </owl:Class>
 
-    
+
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfL2 -->
 
@@ -1959,7 +1959,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of L3</rdfs:label>
     </owl:Class>
-	
+
 
 
  <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfL4 -->
@@ -1980,7 +1980,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of L4</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfL5 -->
@@ -2001,7 +2001,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of L5</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfT1 -->
@@ -2022,7 +2022,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of T1</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfT1-T9 -->
@@ -2056,7 +2056,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of T1 to T9</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfT10 -->
@@ -2077,7 +2077,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of T10</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfT11 -->
@@ -2098,7 +2098,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of T11</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfT12 -->
@@ -2119,7 +2119,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of T12</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfT2 -->
@@ -2140,7 +2140,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of T2</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfT3 -->
@@ -2161,7 +2161,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of T3</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfT4 -->
@@ -2182,7 +2182,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of T4</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfT5 -->
@@ -2203,7 +2203,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of T5</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfT6 -->
@@ -2224,7 +2224,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of T6</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfT7 -->
@@ -2245,7 +2245,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of T7</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfT8 -->
@@ -2266,7 +2266,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of T8</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CentrumOfT9 -->
@@ -2287,9 +2287,9 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Centrum of T9</rdfs:label>
     </owl:Class>
-	
-	   
-    
+
+
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DiaphysisSegmentOfFemur -->
@@ -2307,7 +2307,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Diaphysis segment of femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DiaphysisSegmentOfFibula -->
@@ -2326,7 +2326,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Diaphysis segment of fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DiaphysisSegmentOfHumerus -->
@@ -2345,7 +2345,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Diaphysis segment of humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DiaphysisSegmentOfRadius -->
@@ -2363,7 +2363,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Diaphysis segment of radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DiaphysisSegmentOfTibia -->
@@ -2382,7 +2382,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Diaphysis segment of tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DiaphysisSegmentOfUlna -->
@@ -2400,7 +2400,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Diaphysis segment of ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfFemur -->
@@ -2419,7 +2419,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfFibula -->
@@ -2438,7 +2438,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfHumerus -->
@@ -2457,7 +2457,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfLeftFemur -->
@@ -2478,7 +2478,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of left femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfLeftFibula -->
@@ -2499,7 +2499,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of left fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfLeftHumerus -->
@@ -2520,7 +2520,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of left humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfLeftRadius -->
@@ -2540,7 +2540,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of left radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfLeftTibia -->
@@ -2561,7 +2561,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of left tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfLeftUlna -->
@@ -2581,7 +2581,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of left ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfRadius -->
@@ -2599,7 +2599,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfRightFemur -->
@@ -2619,7 +2619,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of right femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfRightFibula -->
@@ -2639,7 +2639,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of right fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfRightHumerus -->
@@ -2659,7 +2659,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of right humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfRightRadius -->
@@ -2678,7 +2678,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of right radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfRightTibia -->
@@ -2698,7 +2698,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of right tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfRightUlna -->
@@ -2717,7 +2717,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of right ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfTibia -->
@@ -2736,7 +2736,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalEpiphysisOfUlna -->
@@ -2754,7 +2754,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal epiphysis of ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfFemur -->
@@ -2774,7 +2774,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfFibula -->
@@ -2795,7 +2795,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfHumerus -->
@@ -2816,7 +2816,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfLeftFemur -->
@@ -2836,7 +2836,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of left femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfLeftFibula -->
@@ -2857,7 +2857,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of left fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfLeftHumerus -->
@@ -2878,7 +2878,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of left humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfLeftRadius -->
@@ -2898,7 +2898,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of left radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfLeftTibia -->
@@ -2918,7 +2918,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of left tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfLeftUlna -->
@@ -2938,7 +2938,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of left ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfRadius -->
@@ -2958,7 +2958,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfRightFemur -->
@@ -2977,7 +2977,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of right femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfRightFibula -->
@@ -2997,7 +2997,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of right fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfRightHumerus -->
@@ -3017,7 +3017,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of right humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfRightRadius -->
@@ -3036,7 +3036,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of right radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfRightTibia -->
@@ -3055,7 +3055,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of right tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfRightUlna -->
@@ -3074,7 +3074,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of right ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfTibia -->
@@ -3094,7 +3094,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/DistalThirdOfDiaphysisOfUlna -->
@@ -3114,7 +3114,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Distal third of diaphysis of ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireLeftCarpalBone -->
@@ -3147,7 +3147,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Entire left carpal bone</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireLeftMetacarpalBone -->
@@ -3177,7 +3177,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Entire left metacarpal bone</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireLeftMetatarsalBone -->
@@ -3207,7 +3207,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Entire left metatarsal bone</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireLeftPhalanxOfFinger -->
@@ -3246,7 +3246,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Entire left phalanx of finger</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireLeftPhalanxOfToe -->
@@ -3285,7 +3285,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Entire left phalanx of toe</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireLeftTarsalBone -->
@@ -3317,7 +3317,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Entire left tarsal bone</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireLeftThirdToTenthRib -->
@@ -3350,7 +3350,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Left third to tenth rib</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireRightCarpalBone -->
@@ -3382,7 +3382,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Entire right carpal bone</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireRightMetacarpalBone -->
@@ -3411,7 +3411,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Entire right metacarpal bone</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireRightMetatarsalBone -->
@@ -3440,7 +3440,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Entire right metatarsal bone</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireRightPhalanxOfFinger -->
@@ -3478,7 +3478,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Entire right phalanx of finger</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireRightPhalanxOfToe -->
@@ -3516,7 +3516,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Entire right phalanx of toe</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireRightTarsalBone -->
@@ -3547,7 +3547,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Entire right tarsal bone</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireRightThirdToTenthRib -->
@@ -3579,7 +3579,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Right third to tenth rib</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EntireThirdToTenthRib -->
@@ -3610,7 +3610,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Third to tenth rib</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EpiphysisOfFemur -->
@@ -3629,7 +3629,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Epiphysis of femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EpiphysisOfFibula -->
@@ -3648,7 +3648,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Epiphysis of fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EpiphysisOfHumerus -->
@@ -3667,7 +3667,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Epiphysis of humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EpiphysisOfRadius -->
@@ -3686,7 +3686,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Epiphysis of radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EpiphysisOfTibia -->
@@ -3705,7 +3705,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Epiphysis of tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/EpiphysisOfUlna -->
@@ -3724,9 +3724,9 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Epiphysis of ulna</rdfs:label>
     </owl:Class>
-	
-	
-	
+
+
+
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/GlenoidFossa -->
 
@@ -3744,7 +3744,7 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Glenoid fossa</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/Ilium -->
@@ -3765,7 +3765,7 @@
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ischium"/>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Pubis"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/InventoryForCompleteSkeletons -->
@@ -3832,7 +3832,7 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Inventory for complete skeletons</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/Ischium -->
@@ -3853,7 +3853,7 @@
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ilium"/>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Pubis"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftAcetabulum -->
@@ -3873,7 +3873,7 @@
         <rdfs:label xml:lang="en">Left acetabulum</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightAcetabulum"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftIlium -->
@@ -3893,7 +3893,7 @@
         <rdfs:label xml:lang="en">Left ilium</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightIlium"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftIschium -->
@@ -3913,7 +3913,7 @@
         <rdfs:label xml:lang="en">Left ischium</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightIschium"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftPubis -->
@@ -3933,7 +3933,7 @@
         <rdfs:label xml:lang="en">Left pubis</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightPubis"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftGlenoidFossa -->
@@ -3953,7 +3953,7 @@
         <rdfs:label xml:lang="en">Left glenoid fossa</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightGlenoidFossa"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFifthSacralVertebra -->
@@ -3978,7 +3978,7 @@
         <rdfs:label xml:lang="en">Left side of fifth sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFifthSacralVertebra"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFirstSacralVertebra -->
@@ -4003,7 +4003,7 @@
         <rdfs:label xml:lang="en">Left side of first sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFirstSacralVertebra"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFourthSacralVertebra -->
@@ -4028,7 +4028,7 @@
         <rdfs:label xml:lang="en">Left side of fourth sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFourthSacralVertebra"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFrontalBone -->
@@ -4055,7 +4055,7 @@
         <rdfs:label xml:lang="en">Left side of frontal bone</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfFrontalBone"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfMandible -->
@@ -4081,7 +4081,7 @@
         <rdfs:label xml:lang="en">Left side of mandible</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfMandible"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfOccipitalBone -->
@@ -4107,7 +4107,7 @@
         <rdfs:label xml:lang="en">Left side of occipital bone</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfOccipitalBone"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSacrum -->
@@ -4150,7 +4150,7 @@
         <rdfs:label xml:lang="en">Left side of sacrum</rdfs:label>
         <owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSacrum"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSecondSacralVertebra -->
@@ -4175,7 +4175,7 @@
         <rdfs:label xml:lang="en">Left side of second sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSecondSacralVertebra"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSpheonoidBone -->
@@ -4201,7 +4201,7 @@
         <rdfs:label xml:lang="en">Left side of sphenoid bone</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfSphenoidBone"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/LeftSideOfThirdSacralVertebra -->
@@ -4226,7 +4226,7 @@
         <rdfs:label xml:lang="en">Left side of third sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/RightSideOfThirdSacralVertebra"/>
     </owl:Class>
-    
+
 
  <!-- http://w3id.org/rdfbones/ext/standards-si/Manubrium -->
 
@@ -4245,7 +4245,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Manubrium</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfFemur -->
@@ -4264,7 +4264,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfFibula -->
@@ -4284,7 +4284,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfHumerus -->
@@ -4304,7 +4304,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfLeftFemur -->
@@ -4324,7 +4324,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of left femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfLeftFibula -->
@@ -4345,7 +4345,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of left fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfLeftHumerus -->
@@ -4366,7 +4366,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of left humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfLeftRadius -->
@@ -4386,7 +4386,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of left radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfLeftTibia -->
@@ -4406,7 +4406,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of left tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfLeftUlna -->
@@ -4426,7 +4426,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of left ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfRadius -->
@@ -4445,7 +4445,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfRightFemur -->
@@ -4464,7 +4464,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of right femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfRightFibula -->
@@ -4484,7 +4484,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of right fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfRightHumerus -->
@@ -4504,7 +4504,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of right humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfRightRadius -->
@@ -4523,7 +4523,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of right radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfRightTibia -->
@@ -4542,7 +4542,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of right tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfRightUlna -->
@@ -4561,7 +4561,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of right ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfTibia -->
@@ -4580,7 +4580,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/MiddleThirdOfDiaphysisOfUlna -->
@@ -4599,7 +4599,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Middle third of diaphysis of ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
 
@@ -4620,7 +4620,7 @@
         <rdfs:label xml:lang="en">Neural arch of C2</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/CentrumOfC2"/>
     </owl:Class>
-    
+
   <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC3 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC3">
@@ -4637,7 +4637,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of C3</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC3-6 -->
@@ -4665,7 +4665,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of C3 to C6</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC4 -->
@@ -4684,7 +4684,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of C4</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC5 -->
@@ -4703,7 +4703,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of C5</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC6 -->
@@ -4722,7 +4722,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of C6</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfC7 -->
@@ -4742,7 +4742,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of C7</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfL1 -->
@@ -4762,7 +4762,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of L1</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfL2 -->
@@ -4782,7 +4782,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of L2</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfL3 -->
@@ -4802,7 +4802,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of L3</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfL4 -->
@@ -4822,7 +4822,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of L4</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfL5 -->
@@ -4842,7 +4842,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of L5</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT1 -->
@@ -4862,7 +4862,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of T1</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT1-T9 -->
@@ -4895,7 +4895,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of T1 to T9</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT10 -->
@@ -4915,7 +4915,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of T10</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT11 -->
@@ -4935,7 +4935,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of T11</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT12 -->
@@ -4955,7 +4955,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of T12</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT2 -->
@@ -4975,7 +4975,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of T2</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT3 -->
@@ -4995,7 +4995,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of T3</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT4 -->
@@ -5015,7 +5015,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of T4</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT5 -->
@@ -5035,7 +5035,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of T5</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT6 -->
@@ -5055,7 +5055,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of T6</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT7 -->
@@ -5075,7 +5075,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of T7</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT8 -->
@@ -5095,7 +5095,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of T8</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NeuralArchOfT9 -->
@@ -5115,7 +5115,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Neural arch of T9</rdfs:label>
     </owl:Class>
-    
+
 
 
 
@@ -5130,7 +5130,7 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Number of complete elements</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/CountValueSpecification -->
@@ -5150,7 +5150,7 @@
         <obo:IAO_0000117>Felix Engel</obo:IAO_0000117>
         <rdfs:label>Count value specification</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/NumberOfPresentElements -->
@@ -5160,7 +5160,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/CountValueSpecification"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/ext/standards-si/CountValueSpecification"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A measurement datum describing the amount of instances of a defined element that are available for investigation. The elements can be either complete or fragmented.</obo:IAO_0000115>
@@ -5169,7 +5169,7 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Number of present elements</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/PosteriorLateralPartOfC1 -->
@@ -5192,9 +5192,9 @@
         <rdfs:label xml:lang="en">Posterior-lateral part of C1</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/AnteriorArchOfC1"/>
     </owl:Class>
-    
-	
-	
+
+
+
   <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfFemur -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfFemur">
@@ -5211,7 +5211,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfFibula -->
@@ -5230,7 +5230,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfHumerus -->
@@ -5248,7 +5248,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfLeftFemur -->
@@ -5269,7 +5269,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of left femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfLeftFibula -->
@@ -5290,7 +5290,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of left fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfLeftHumerus -->
@@ -5310,7 +5310,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of left humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfLeftRadius -->
@@ -5330,7 +5330,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of left radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfLeftTibia -->
@@ -5351,7 +5351,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of left tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfLeftUlna -->
@@ -5371,7 +5371,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of left ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfRadius -->
@@ -5389,7 +5389,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfRightFemur -->
@@ -5409,7 +5409,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of right femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfRightFibula -->
@@ -5429,7 +5429,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of right fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfRightHumerus -->
@@ -5448,7 +5448,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of right humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfRightRadius -->
@@ -5467,7 +5467,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of right radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfRightTibia -->
@@ -5487,7 +5487,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of right tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfRightUlna -->
@@ -5506,7 +5506,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of right ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfTibia -->
@@ -5525,7 +5525,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalEpiphysisOfUlna -->
@@ -5543,7 +5543,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal epiphysis of ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfFemur -->
@@ -5561,7 +5561,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfFibula -->
@@ -5580,7 +5580,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfHumerus -->
@@ -5599,7 +5599,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfLeftFemur -->
@@ -5619,7 +5619,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of left femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfLeftFibula -->
@@ -5640,7 +5640,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of left fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfLeftHumerus -->
@@ -5661,7 +5661,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of left humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfLeftRadius -->
@@ -5681,7 +5681,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of left radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfLeftTibia -->
@@ -5701,7 +5701,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of left tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfLeftUlna -->
@@ -5721,7 +5721,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of left ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfRadius -->
@@ -5739,7 +5739,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfRightFemur -->
@@ -5758,7 +5758,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of right femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfRightFibula -->
@@ -5778,7 +5778,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of right fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfRightHumerus -->
@@ -5798,7 +5798,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of right humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfRightRadius -->
@@ -5817,7 +5817,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of right radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfRightTibia -->
@@ -5836,7 +5836,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of right tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfRightUlna -->
@@ -5855,7 +5855,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of right ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfTibia -->
@@ -5873,7 +5873,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/ProximalThirdOfDiaphysisOfUlna -->
@@ -5891,7 +5891,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Proximal third of diaphysis of ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/Pubis -->
@@ -5912,7 +5912,7 @@
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ischium"/>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/Ischium"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/Representation4States -->
@@ -5939,7 +5939,7 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Representation in four states</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/Representation4StatesLabel -->
@@ -5951,7 +5951,7 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Label for  Representation in four states </rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/Representation4StatesValueSpecification -->
@@ -5969,7 +5969,7 @@
         <obo:IAO_0000117 xml:lang="en">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Value specification for  Representation in four states </rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightAcetabulum -->
@@ -5989,7 +5989,7 @@
         <rdfs:label xml:lang="en">Right acetabulum</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftAcetabulum"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightGlenoidFossa -->
@@ -6009,7 +6009,7 @@
         <rdfs:label xml:lang="en">Right glenoid fossa</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftGlenoidFossa"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightIlium -->
@@ -6029,7 +6029,7 @@
         <rdfs:label xml:lang="en">Right ilium</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftIlium"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightIschium -->
@@ -6049,7 +6049,7 @@
         <rdfs:label xml:lang="en">Right ischium</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftIschium"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightPubis -->
@@ -6069,7 +6069,7 @@
         <rdfs:label xml:lang="en">Right pubis</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftPubis"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfFifthSacralVertebra -->
@@ -6094,7 +6094,7 @@
         <rdfs:label xml:lang="en">Right side of fifth sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFifthSacralVertebra"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfFirstSacralVertebra -->
@@ -6119,7 +6119,7 @@
         <rdfs:label xml:lang="en">Right side of first sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFirstSacralVertebra"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfFourthSacralVertebra -->
@@ -6144,7 +6144,7 @@
         <rdfs:label xml:lang="en">Right side of fourth sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFourthSacralVertebra"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfFrontalBone -->
@@ -6171,7 +6171,7 @@
         <rdfs:label xml:lang="en">Right side of frontal bone</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfFrontalBone"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfMandible -->
@@ -6197,7 +6197,7 @@
         <rdfs:label xml:lang="en">Right side of mandible</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfMandible"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfOccipitalBone -->
@@ -6223,7 +6223,7 @@
         <rdfs:label xml:lang="en">Right side of occipital bone</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfOccipitalBone"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfSacrum -->
@@ -6266,7 +6266,7 @@
         <rdfs:label xml:lang="en">Right side of sacrum</rdfs:label>
         <owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSacrum"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfSecondSacralVertebra -->
@@ -6291,7 +6291,7 @@
         <rdfs:label xml:lang="en">Right side of second sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSecondSacralVertebra"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfSpheonoidBone -->
@@ -6317,7 +6317,7 @@
         <rdfs:label xml:lang="en">Right side of sphenoid bone</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfSphenoidBone"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/RightSideOfThirdSacralVertebra -->
@@ -6342,7 +6342,7 @@
         <rdfs:label xml:lang="en">Right side of third sacral vertebra</rdfs:label>
 	<owl:disjointWith rdf:resource="http://w3id.org/rdfbones/ext/standards-si/LeftSideOfThirdSacralVertebra"/>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SectionCranialBonesAndJointSurfaces -->
@@ -6694,7 +6694,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Cranial bones and joint surfaces</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SectionGroupedFootBones -->
@@ -7013,7 +7013,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Foot</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SectionGroupedHandBones -->
@@ -7332,7 +7332,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Hand</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SectionGroupedRibs -->
@@ -7447,7 +7447,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Ribs (grouped)</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SectionGroupedVertebrae -->
@@ -7596,7 +7596,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Vertebrae (grouped)</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SectionIndividualRibs -->
@@ -7780,7 +7780,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Ribs (individual)</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SectionIndividualVertebrae -->
@@ -8166,7 +8166,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Vertebrae (individual)</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SectionLongBones -->
@@ -9267,7 +9267,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Long bones</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SectionPostcranialBonesAndJointSurfaces -->
@@ -9619,8 +9619,8 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Postcranial bones and joint surfaces</rdfs:label>
     </owl:Class>
-    
-    
+
+
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfAtlas -->
 
@@ -9637,7 +9637,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of atlas</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfAxis -->
@@ -9655,7 +9655,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of axis</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfCervicalVertebra -->
@@ -9673,7 +9673,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of cervical vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
 
@@ -9692,7 +9692,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of eighth thoracic vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfEleventhThoracicVertebra -->
@@ -9710,7 +9710,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of eleventh thoracic vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFemur -->
@@ -9729,7 +9729,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of femur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFibula -->
@@ -9748,7 +9748,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of fibula</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFifthCervicalVertebra -->
@@ -9766,7 +9766,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of fifth cervical vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFifthLumbarVertebra -->
@@ -9784,7 +9784,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of fifth lumbar vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFifthSacralVertebra -->
@@ -9802,7 +9802,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of fifth sacral vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFifthThoracicVertebra -->
@@ -9820,7 +9820,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of fifth thoracic vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFirstLumbarVertebra -->
@@ -9838,8 +9838,8 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of first lumbar vertebra</rdfs:label>
     </owl:Class>
-    
-   
+
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFirstSacralVertebra -->
@@ -9857,7 +9857,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of first sacral vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
 
@@ -9876,7 +9876,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of first thoracic vertebra</rdfs:label>
     </owl:Class>
-    
+
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFirstToNinthThoracicVertebra -->
 
@@ -9907,7 +9907,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of first to ninth thoracic vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFourthCervicalVertebra -->
@@ -9925,7 +9925,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of fourth cervical vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFourthLumbarVertebra -->
@@ -9943,7 +9943,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of fourth lumbar vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFourthSacralVertebra -->
@@ -9961,7 +9961,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of fourth sacral vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFourthThoracicVertebra -->
@@ -9979,7 +9979,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of fourth thoracic vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfFrontalBone -->
@@ -9997,7 +9997,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of frontal bone</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfHipBone -->
@@ -10015,8 +10015,8 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of hip bone</rdfs:label>
     </owl:Class>
-    
- 
+
+
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfHumerus -->
 
@@ -10034,7 +10034,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of humerus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfLongBone -->
@@ -10053,9 +10053,9 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of long bone</rdfs:label>
     </owl:Class>
-    
-	
-	
+
+
+
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfLumbarVertebra -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/SegmentOfLumbarVertebra">
@@ -10071,7 +10071,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of lumbar vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfMandible -->
@@ -10089,8 +10089,8 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of mandible</rdfs:label>
     </owl:Class>
-    
- 
+
+
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfNinthThoracicVertebra -->
 
@@ -10107,7 +10107,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of ninth thoracic vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfOccipitalBone -->
@@ -10125,7 +10125,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of occipital bone</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfRadius -->
@@ -10144,7 +10144,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of radius</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfSacralVertebra -->
@@ -10162,7 +10162,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of sacral vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfScapula -->
@@ -10180,7 +10180,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of scapula</rdfs:label>
     </owl:Class>
-    
+
 
 
 
@@ -10200,7 +10200,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of second lumbar vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfSecondSacralVertebra -->
@@ -10218,9 +10218,9 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of second sacral vertebra</rdfs:label>
     </owl:Class>
-    
 
-  
+
+
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfSecondThoracicVertebra -->
 
@@ -10237,7 +10237,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of second thoracic vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfSeventhCervicalVertebra -->
@@ -10255,7 +10255,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of seventh cervical vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfSeventhThoracicVertebra -->
@@ -10273,7 +10273,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of seventh thoracic vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfSixthCervicalVertebra -->
@@ -10291,7 +10291,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of sixth cervical vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfSixthThoracicVertebra -->
@@ -10309,7 +10309,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of sixth thoracic vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
 
@@ -10328,7 +10328,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of sphenoid bone</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfSternum -->
@@ -10347,7 +10347,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of sternum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfTenthThoracicVertebra -->
@@ -10365,7 +10365,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of tenth thoracic vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfThirdCervicalVertebra -->
@@ -10383,7 +10383,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of third cervical vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfThirdLumbarVertebra -->
@@ -10401,7 +10401,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of third lumbar vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfThirdSacralVertebra -->
@@ -10419,7 +10419,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Segment of third sacral vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfThirdThoracicVertebra -->
@@ -10437,8 +10437,8 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of third thoracic vertebra</rdfs:label>
     </owl:Class>
-    
-	
+
+
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfThirdToSixthCervicalVertebra -->
 
@@ -10464,7 +10464,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of third to sixth cervical vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfThoracicVertebra -->
@@ -10482,7 +10482,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of thoracic vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
 
@@ -10502,7 +10502,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of tibia</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfTwelfthThoracicVertebra -->
@@ -10520,7 +10520,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of twelfth thoracic vertebra</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfUlna -->
@@ -10539,7 +10539,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Segment of ulna</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/SegmentOfVertebra -->
@@ -10561,7 +10561,7 @@
 
 
 
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -10569,7 +10569,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/1-complete -->
@@ -10581,7 +10581,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Complete</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/2-partial -->
@@ -10593,7 +10593,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Partial</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/3-poor -->
@@ -10605,7 +10605,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Poor</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://w3id.org/rdfbones/ext/standards-si/missing -->
@@ -10620,5 +10620,5 @@
     </owl:NamedIndividual>
 
 
-    
+
 </rdf:RDF>
